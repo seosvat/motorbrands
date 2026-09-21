@@ -55,7 +55,6 @@
 
     const img = document.createElement('img');
     img.alt = '';
-    img.src = localSrc;
     img.className = 'brand-logo-wrap-img';
     img.style.cssText = 'width:72px;height:72px;object-fit:contain;';
     img.addEventListener('load', () => { logoWrap.classList.add('has-logo'); });
@@ -69,6 +68,9 @@
       }
     });
     logoWrap.insertBefore(img, logoWrap.firstChild);
+    // Set src AFTER listeners so cached images still fire the load event
+    img.src = localSrc;
+    if (img.complete && img.naturalWidth > 0) logoWrap.classList.add('has-logo');
 
     // ── Badges ──────────────────────────────────────────────────────────────
     const badgeCat = document.getElementById('badge-category');
