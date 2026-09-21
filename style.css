@@ -78,6 +78,26 @@ body {
   margin-left: auto;
 }
 
+/* Hamburger button — desktop: hidden */
+.nav-hamburger {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color var(--dur-short) var(--ease-out), border-color var(--dur-short) var(--ease-out);
+}
+.nav-hamburger:hover { color: var(--color-ink); border-color: var(--color-ink-3); }
+.nav-hamburger .icon-close { display: none; }
+.nav-hamburger[aria-expanded="true"] .icon-ham   { display: none; }
+.nav-hamburger[aria-expanded="true"] .icon-close { display: block; }
+
 .nav-links {
   position: relative;
   display: flex;
@@ -1113,18 +1133,49 @@ footer {
 /* ── Responsive 640px ────────────────────────────────────────────────────── */
 @media (max-width: 40rem) {
   .site-nav            { padding: 0 var(--space-sm); }
-  .nav-links           { display: none; }
+
+  /* Hamburger */
+  .nav-hamburger       { display: flex; }
+  .nav-links           {
+    display: none;
+    position: absolute;
+    top: var(--site-nav-h);
+    left: 0; right: 0;
+    z-index: 200;
+    flex-direction: column;
+    gap: 2px;
+    height: auto;
+    background: var(--color-paper);
+    border-radius: 0;
+    border-bottom: 1px solid var(--color-rule);
+    padding: var(--space-xs) var(--space-sm) var(--space-sm);
+  }
+  .nav-links.nav-open  { display: flex; }
+  .nav-link            {
+    height: 44px;
+    border-radius: var(--radius-md);
+    padding: 0 var(--space-sm);
+    font-size: var(--text-base);
+  }
+
+  /* Hero — hide globe and floating labels on mobile */
   .site-hero           {
     grid-template-columns: 1fr;
     min-height: auto;
     padding: var(--space-lg) var(--space-sm);
-    gap: var(--space-lg);
+    gap: 0;
   }
-  .site-hero-viz       { max-width: 100%; justify-self: stretch; max-height: 280px; aspect-ratio: unset; }
+  .site-hero-viz       { display: none; }
+  .hero-orbit-pill     { display: none; }
+
   .filterbar-inner,
   .adv-filters-inner   { padding-left: var(--space-sm); padding-right: var(--space-sm); }
   .cat-tabs            { display: none; }
   .brand-count         { display: none; }
+
+  /* Hide theme toggle from filter bar — it lives in the nav */
+  .theme-toggle--fb    { display: none; }
+
   main                 { padding: var(--space-sm) var(--space-sm) var(--space-xl); }
   footer               { flex-direction: column; gap: var(--space-2xs); text-align: center; padding: var(--space-sm); }
   #search              { width: 140px; }
