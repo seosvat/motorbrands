@@ -49,7 +49,7 @@ function getDomain(url) {
 
 function logoImg(b) {
   const catSuffix = b.category === 'car' ? 'auto' : b.category;
-  const localSrc = `assets/${b.id}-${catSuffix}.png`;
+  const localSrc = `Assets/${b.id}-${catSuffix}.png`;
   const domain = b.url ? getDomain(b.url) : null;
   const fallbackSrc = domain ? `https://logo.clearbit.com/${domain}` : null;
 

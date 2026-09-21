@@ -49,7 +49,7 @@
     // ── Logo ────────────────────────────────────────────────────────────────
     const logoWrap = document.getElementById('brand-logo-wrap');
     const catSuffix = b.category === 'car' ? 'auto' : b.category;
-    const localSrc = `assets/${b.id}-${catSuffix}.png`;
+    const localSrc = `Assets/${b.id}-${catSuffix}.png`;
     const domain = b.url ? getDomain(b.url) : null;
     const fallbackSrc = domain ? `https://logo.clearbit.com/${domain}` : null;
 
@@ -194,7 +194,7 @@
 
       const catSuf = rb.category === 'car' ? 'auto' : rb.category;
       const rImg = document.createElement('img');
-      rImg.src = `assets/${rb.id}-${catSuf}.png`;
+      rImg.src = `Assets/${rb.id}-${catSuf}.png`;
       rImg.alt = '';
       rImg.className = 'brand-related-logo';
       rImg.addEventListener('error', function () {
