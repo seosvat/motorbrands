@@ -1,0 +1,1828 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insights — Motorbrands</title>
+  <meta name="description" content="Datos, historia y geografía de las marcas de vehículos del mundo. Estadísticas de coches, motos y vehículos autónomos.">
+  <link rel="canonical" href="https://motorbrands.oscarlp.com/insights.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website">
+  <meta property="og:site_name"   content="Motorbrands">
+  <meta property="og:url"         content="https://motorbrands.oscarlp.com/insights.html">
+  <meta property="og:title"       content="Insights — Motorbrands">
+  <meta property="og:description" content="Datos, historia y geografía de las marcas de vehículos del mundo. Estadísticas de coches, motos y vehículos autónomos.">
+  <meta property="og:image"       content="https://motorbrands.oscarlp.com/Assets/og-cover.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Insights — Motorbrands">
+  <meta name="twitter:description" content="Datos, historia y geografía de las marcas de vehículos del mundo.">
+  <meta name="twitter:image"       content="https://motorbrands.oscarlp.com/Assets/og-cover.png">
+
+  <script>(function(){var t=localStorage.getItem('mb-theme')||'light';document.documentElement.setAttribute('data-theme',t);})();</script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* ─────────────────────────────────────────────────────────────
+       INSIGHTS PAGE
+    ───────────────────────────────────────────────────────────── */
+
+    :root {
+      --ins-max: 1440px;
+      --ins-pad: 2rem;
+    }
+
+    /* ── HERO ──────────────────────────────────────────────────── */
+    .ins-hero {
+      min-height: 100svh;
+      max-width: var(--ins-max);
+      margin: 0 auto;
+      padding: calc(var(--site-nav-h) + 3rem) var(--ins-pad) 4.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: 3rem;
+    }
+
+    .ins-eyebrow {
+      font-size: 0.6875rem;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--color-ink-3);
+    }
+
+    .ins-hero-layout {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 4rem;
+      align-items: end;
+    }
+    @media (max-width: 720px) { .ins-hero-layout { grid-template-columns: 1fr; gap: 2rem; } }
+
+    .ins-hero-title {
+      font-size: clamp(2rem, 4.2vw, 4.4rem);
+      font-weight: 700;
+      line-height: 0.96;
+      letter-spacing: -0.02em;
+      color: var(--color-ink);
+      margin: 0;
+    }
+
+    .ins-hero-right {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .ins-hero-sub {
+      font-size: 1.0625rem;
+      color: var(--color-ink-2);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    .ins-kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.625rem;
+    }
+    @media (max-width: 720px) { .ins-kpis { grid-template-columns: repeat(2, 1fr); } }
+
+    .ins-kpi {
+      background: var(--color-paper-2);
+      border: 1px solid var(--color-rule);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.125rem;
+    }
+    .ins-kpi-num {
+      display: block;
+      font-size: clamp(1.6rem, 2.8vw, 2.2rem);
+      font-weight: 800;
+      color: var(--color-accent);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .ins-kpi-label {
+      font-size: 0.5625rem;
+      font-weight: 600;
+      color: var(--color-ink-3);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .ins-hero-rule {
+      width: 100%;
+      height: 1px;
+      background: var(--color-rule);
+    }
+
+    /* ── CHAPTER ───────────────────────────────────────────────── */
+    .ins-chapter {
+      max-width: var(--ins-max);
+      margin: 0 auto;
+      padding: 5.5rem var(--ins-pad) 5rem;
+      border-top: 1px solid var(--color-rule);
+    }
+
+    .ins-ch-head {
+      display: flex;
+      align-items: center;
+      gap: 0.625rem;
+      margin-bottom: 2.5rem;
+    }
+    .ins-ch-num {
+      font-size: 0.6875rem;
+      font-weight: 700;
+      color: var(--color-accent);
+      letter-spacing: 0.06em;
+    }
+    .ins-ch-sep { color: var(--color-ink-3); font-size: 0.75rem; }
+    .ins-ch-tag {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      color: var(--color-ink-3);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .ins-ch-intro {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      margin-bottom: 3rem;
+      align-items: start;
+    }
+    @media (max-width: 760px) { .ins-ch-intro { grid-template-columns: 1fr; gap: 1.5rem; } }
+
+    .ins-ch-title {
+      font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.015em;
+      color: var(--color-ink);
+      margin: 0;
+    }
+
+    .ins-ch-desc {
+      font-size: 1.0625rem;
+      color: var(--color-ink-2);
+      line-height: 1.72;
+      margin: 0;
+      padding-top: 0.35em;
+    }
+    .ins-ch-desc strong { color: var(--color-ink); font-weight: 600; }
+
+    /* ── VIZ CARD ──────────────────────────────────────────────── */
+    .ins-viz-card {
+      background: var(--color-paper-2);
+      border: 1px solid var(--color-rule);
+      border-radius: 18px;
+      overflow: hidden;
+    }
+
+    /* ── TOOLTIP ───────────────────────────────────────────────── */
+    #ins-tip {
+      position: fixed;
+      pointer-events: none;
+      z-index: 9999;
+      background: var(--color-ink);
+      color: var(--color-paper);
+      padding: 9px 13px;
+      border-radius: 8px;
+      font-size: 0.75rem;
+      line-height: 1.55;
+      max-width: 240px;
+      opacity: 0;
+      transition: opacity 0.12s;
+      box-shadow: 0 4px 16px rgba(0,0,0,.18);
+    }
+    #ins-tip.show { opacity: 1; }
+    #ins-tip b { font-weight: 700; display: block; font-size: 0.8125rem; }
+    #ins-tip span { opacity: 0.7; font-size: 0.6875rem; }
+
+    /* ── MAP ───────────────────────────────────────────────────── */
+    #viz-map-svg {
+      width: 100%;
+      aspect-ratio: 2.5 / 1;
+      min-height: 220px;
+      display: block;
+    }
+    #viz-map-svg .map-dot { transition: r .15s, opacity .15s; }
+    #viz-map-svg .map-dot:hover { opacity: 1 !important; }
+
+    .ins-country-bars {
+      padding: 1.25rem 2rem 1.5rem;
+      border-top: 1px solid var(--color-rule);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 3rem;
+    }
+    @media (max-width: 640px) { .ins-country-bars { grid-template-columns: 1fr; } }
+
+    .ins-cb-label-row {
+      font-size: 0.5625rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--color-ink-3);
+      padding-bottom: 0.75rem;
+      grid-column: 1 / -1;
+    }
+
+    .ins-cb-row {
+      display: flex;
+      align-items: center;
+      gap: 0.875rem;
+      margin-bottom: 5px;
+    }
+    .ins-cb-meta {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      width: 140px;
+      flex-shrink: 0;
+    }
+    .ins-cb-flag { font-size: 0.9rem; line-height: 1; }
+    .ins-cb-name { font-size: 0.6875rem; font-weight: 500; color: var(--color-ink); }
+    .ins-cb-track {
+      flex: 1;
+      height: 18px;
+      background: var(--color-paper-3);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .ins-cb-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: var(--color-accent);
+      opacity: 0.7;
+      width: 0;
+      transition: width 1s cubic-bezier(.16,1,.3,1);
+    }
+    .ins-cb-count {
+      font-size: 0.6875rem;
+      font-weight: 700;
+      color: var(--color-ink-2);
+      width: 22px;
+      text-align: right;
+    }
+
+    /* ── MAP COUNTRY PANEL ────────────────────────────────────── */
+    .ins-map-country-panel {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.38s cubic-bezier(.16,1,.3,1), padding 0.28s;
+      border-top: 0px solid var(--color-rule);
+      padding: 0 1.75rem;
+    }
+    .ins-map-country-panel.open {
+      max-height: 260px;
+      padding: 1rem 1.75rem 1.25rem;
+      border-top-width: 1px;
+    }
+    .ins-map-cp-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--color-ink);
+      margin-bottom: 0.625rem;
+    }
+    .ins-map-cp-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+    .ins-map-cp-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.6875rem;
+      font-weight: 500;
+      color: var(--color-ink-2);
+      background: var(--color-paper-3);
+      border-radius: 5px;
+      padding: 3px 9px 3px 6px;
+    }
+
+    /* ── MOTO CHART ────────────────────────────────────────────── */
+    .ins-moto-grid.ins-moto-chart-mode {
+      display: block;
+      padding: 1.25rem 1.5rem 1.5rem;
+    }
+    .ins-moto-grid.ins-moto-chart-mode svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    /* ── SUNBURST ──────────────────────────────────────────────── */
+    .ins-sunburst-layout {
+      display: grid;
+      grid-template-columns: 1fr 230px;
+    }
+    @media (max-width: 800px) { .ins-sunburst-layout { grid-template-columns: 1fr; } }
+
+    .ins-sb-svg-area {
+      padding: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #viz-sunburst {
+      max-width: 480px;
+      width: 100%;
+      height: auto;
+    }
+
+    .ins-sb-legend {
+      border-left: 1px solid var(--color-rule);
+      padding: 1.75rem 1.25rem;
+      overflow-y: auto;
+      max-height: 500px;
+    }
+    @media (max-width: 800px) {
+      .ins-sb-legend { border-left: none; border-top: 1px solid var(--color-rule); max-height: 260px; padding: 1.25rem 1.5rem; }
+    }
+
+    .ins-sb-legend-ttl {
+      font-size: 0.5625rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--color-ink-3);
+      margin-bottom: 0.875rem;
+    }
+
+    .ins-sb-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 6px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background var(--dur-short);
+    }
+    .ins-sb-item:hover { background: var(--color-paper-3); }
+    .ins-sb-item.hl { background: var(--color-accent-tint); }
+
+    .ins-sb-dot {
+      width: 8px; height: 8px;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+    .ins-sb-name {
+      font-size: 0.6875rem;
+      font-weight: 500;
+      color: var(--color-ink);
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .ins-sb-n {
+      font-size: 0.625rem;
+      font-weight: 700;
+      color: var(--color-ink-3);
+    }
+
+    /* ── SUNBURST selected brand list ── */
+    .ins-sb-brand-list {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--color-rule);
+    }
+    .ins-sb-brand-list-ttl {
+      font-size: 0.5625rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--color-ink-3);
+      margin-bottom: 0.5rem;
+    }
+    .ins-sb-brand-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.625rem;
+      font-weight: 500;
+      color: var(--color-ink-2);
+      background: var(--color-paper-3);
+      border-radius: 4px;
+      padding: 3px 7px;
+      margin: 2px 3px 2px 0;
+    }
+    .ins-sb-brand-swatch {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ── TIMELINE ──────────────────────────────────────────────── */
+    .ins-tl-wrap { padding: 2rem 2.25rem; }
+
+    .ins-tl-row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 7px;
+    }
+    .ins-tl-decade {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      color: var(--color-ink-2);
+      width: 38px;
+      text-align: right;
+      flex-shrink: 0;
+    }
+    .ins-tl-track {
+      flex: 1;
+      height: 28px;
+      background: var(--color-paper-3);
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative;
+    }
+    .ins-tl-fill {
+      height: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 8px;
+      width: 0;
+      transition: width 0.85s cubic-bezier(.16,1,.3,1);
+      background: var(--color-accent);
+    }
+    .ins-tl-fill.peak { background: var(--color-accent); opacity: 1; }
+    .ins-tl-fill:not(.peak) { opacity: 0.55; }
+    .ins-tl-n {
+      font-size: 0.625rem;
+      font-weight: 700;
+      color: white;
+    }
+    .ins-tl-note {
+      font-size: 0.6875rem;
+      color: var(--color-ink-3);
+      text-align: right;
+      margin-top: 1rem;
+    }
+
+    /* ── TIMELINE DETAIL ──────────────────────────────────────── */
+    .ins-tl-fill { cursor: pointer; }
+    .ins-tl-fill.ins-tl-selected {
+      opacity: 1 !important;
+      filter: brightness(1.15);
+    }
+    .ins-tl-detail {
+      margin-top: 1.25rem;
+      padding: 1.125rem 1.25rem;
+      background: var(--color-paper-3);
+      border-radius: 10px;
+      border: 1px solid var(--color-rule);
+      display: none;
+    }
+    .ins-tl-detail.open { display: block; }
+    .ins-tl-detail-title {
+      font-size: 0.625rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--color-accent);
+      margin-bottom: 0.75rem;
+    }
+    .ins-tl-detail-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .ins-tl-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.6875rem;
+      font-weight: 500;
+      color: var(--color-ink);
+      background: var(--color-paper-2);
+      border: 1px solid var(--color-rule);
+      border-radius: 6px;
+      padding: 4px 9px 4px 6px;
+      cursor: default;
+    }
+    .ins-tl-chip-dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .ins-tl-chip-year {
+      font-size: 0.5625rem;
+      color: var(--color-ink-3);
+      font-weight: 600;
+      margin-left: 2px;
+    }
+    .ins-tl-chip-flag { font-size: 0.75rem; }
+
+    /* ── AUTÓNOMO ──────────────────────────────────────────────── */
+    .ins-auto-grid {
+      padding: 1.5rem 2rem 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 0.625rem;
+    }
+    @media (max-width: 600px) {
+      .ins-auto-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); }
+    }
+    .ins-auto-tile {
+      background: var(--color-paper-3);
+      border: 1px solid var(--color-rule);
+      border-radius: 10px;
+      padding: 0.875rem 0.875rem 0.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: background var(--dur-short), transform var(--dur-short);
+    }
+    .ins-auto-tile:hover {
+      background: var(--color-paper-2);
+      transform: translateY(-2px);
+    }
+    .ins-auto-dot {
+      width: 28px; height: 28px;
+      border-radius: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.625rem;
+      font-weight: 800;
+      color: white;
+      letter-spacing: 0.04em;
+    }
+    .ins-auto-name {
+      font-size: 0.6875rem;
+      font-weight: 700;
+      color: var(--color-ink);
+      line-height: 1.2;
+    }
+    .ins-auto-meta {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .ins-auto-flag { font-size: 0.75rem; }
+    .ins-auto-year {
+      font-size: 0.5625rem;
+      font-weight: 600;
+      color: var(--color-ink-3);
+    }
+
+    .ins-auto-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--color-rule);
+      border-top: 1px solid var(--color-rule);
+    }
+    @media (max-width: 600px) { .ins-auto-stats { grid-template-columns: 1fr; } }
+
+    .ins-auto-stat-cell {
+      background: var(--color-paper-2);
+      padding: 1.25rem 1.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .ins-auto-stat-num {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--color-auto);
+      line-height: 1;
+    }
+    .ins-auto-stat-label {
+      font-size: 0.6875rem;
+      color: var(--color-ink-2);
+    }
+
+    /* ── FUEL ──────────────────────────────────────────────────── */
+    .ins-fuel-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--color-rule);
+    }
+    @media (max-width: 600px) { .ins-fuel-grid { grid-template-columns: 1fr; } }
+
+    .ins-fuel-cell {
+      background: var(--color-paper-2);
+      padding: 2.75rem 2.25rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ins-fuel-label {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.625rem;
+    }
+    .ins-fuel-big {
+      font-size: clamp(3.2rem, 6vw, 5.2rem);
+      font-weight: 800;
+      line-height: 1;
+      margin-bottom: 0.25rem;
+    }
+    .ins-fuel-sub {
+      font-size: 0.75rem;
+      color: var(--color-ink-3);
+      line-height: 1.55;
+    }
+    .ins-fuel-bar-b {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 3px;
+    }
+    .ins-fuel-cell--e .ins-fuel-label,
+    .ins-fuel-cell--e .ins-fuel-big { color: var(--color-fuel-e); }
+    .ins-fuel-cell--e .ins-fuel-bar-b { background: var(--color-fuel-e); }
+
+    .ins-fuel-cell--c .ins-fuel-label,
+    .ins-fuel-cell--c .ins-fuel-big { color: var(--color-fuel-c); }
+    .ins-fuel-cell--c .ins-fuel-bar-b { background: var(--color-fuel-c); }
+
+    .ins-fuel-cell--h .ins-fuel-label,
+    .ins-fuel-cell--h .ins-fuel-big { color: var(--color-fuel-h); }
+    .ins-fuel-cell--h .ins-fuel-bar-b { background: var(--color-fuel-h); }
+
+    /* ── MOTOS ─────────────────────────────────────────────────── */
+    .ins-moto-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--color-rule);
+      border-bottom: 1px solid var(--color-rule);
+    }
+    @media (max-width: 600px) { .ins-moto-stats { grid-template-columns: 1fr; } }
+
+    .ins-moto-stat-cell {
+      background: var(--color-paper-2);
+      padding: 1.25rem 1.75rem;
+    }
+    .ins-moto-stat-num {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--color-moto);
+      line-height: 1;
+      margin-bottom: 3px;
+    }
+    .ins-moto-stat-label {
+      font-size: 0.6875rem;
+      color: var(--color-ink-2);
+    }
+
+    .ins-moto-grid {
+      padding: 1.5rem 2rem 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 0.625rem;
+    }
+    @media (max-width: 600px) { .ins-moto-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); } }
+
+    .ins-moto-tile {
+      background: var(--color-paper-3);
+      border: 1px solid var(--color-rule);
+      border-radius: 10px;
+      padding: 0.875rem 0.875rem 0.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: background var(--dur-short), transform var(--dur-short);
+    }
+    .ins-moto-tile:hover { background: var(--color-paper-2); transform: translateY(-2px); }
+
+    .ins-moto-dot {
+      width: 28px; height: 28px;
+      border-radius: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.625rem;
+      font-weight: 800;
+      color: white;
+    }
+    .ins-moto-name {
+      font-size: 0.6875rem;
+      font-weight: 700;
+      color: var(--color-ink);
+      line-height: 1.2;
+    }
+    .ins-moto-meta {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .ins-moto-flag { font-size: 0.75rem; }
+    .ins-moto-year {
+      font-size: 0.5625rem;
+      font-weight: 600;
+      color: var(--color-ink-3);
+    }
+
+    /* ── CODA ───────────────────────────────────────────────────── */
+    .ins-coda {
+      background: oklch(11% 0.012 258);
+      color: white;
+      margin-top: 0;
+    }
+
+    .ins-coda-inner {
+      max-width: var(--ins-max);
+      margin: 0 auto;
+      padding: 6rem var(--ins-pad) 5rem;
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+    @media (max-width: 760px) {
+      .ins-coda-inner { grid-template-columns: 1fr; gap: 3rem; }
+    }
+
+    .ins-coda-left {}
+
+    .ins-coda-eyebrow {
+      font-size: 0.6875rem;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: oklch(55% 0.01 258);
+      margin-bottom: 2rem;
+    }
+
+    .ins-coda-title {
+      font-size: clamp(1.8rem, 3.5vw, 3.5rem);
+      font-weight: 700;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      color: white;
+      margin: 0 0 2rem;
+    }
+
+    .ins-coda-sub {
+      font-size: 1rem;
+      color: oklch(62% 0.01 258);
+      line-height: 1.72;
+      margin: 0;
+      max-width: 44ch;
+    }
+
+    .ins-coda-right {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .ins-coda-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      border: 1px solid oklch(22% 0.015 258);
+      border-radius: 14px;
+      overflow: hidden;
+    }
+
+    .ins-coda-stat {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.125rem 1.5rem;
+      border-bottom: 1px solid oklch(22% 0.015 258);
+    }
+    .ins-coda-stat:last-child { border-bottom: none; }
+
+    .ins-coda-stat-label {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: oklch(55% 0.01 258);
+    }
+    .ins-coda-stat-val {
+      font-size: 1.375rem;
+      font-weight: 800;
+      color: white;
+    }
+    .ins-coda-stat-val.c-car   { color: oklch(70% 0.16 262); }
+    .ins-coda-stat-val.c-moto  { color: oklch(70% 0.15 35); }
+    .ins-coda-stat-val.c-auto  { color: oklch(68% 0.14 152); }
+
+    .ins-coda-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: white;
+      color: oklch(12% 0.012 258);
+      font-size: 0.875rem;
+      font-weight: 700;
+      padding: 0.875rem 1.5rem;
+      border-radius: var(--radius-pill);
+      text-decoration: none;
+      transition: background .18s, transform .18s;
+      align-self: flex-start;
+    }
+    .ins-coda-cta:hover {
+      background: oklch(92% 0 0);
+      transform: translateX(3px);
+    }
+    .ins-coda-cta svg { flex-shrink: 0; }
+
+    /* ── SCROLL REVEAL ─────────────────────────────────────────── */
+    @keyframes insHeroIn {
+      from { opacity: 0; transform: translateY(22px); }
+      to   { opacity: 1; transform: none; }
+    }
+
+    .ins-hero-anim {
+      animation: insHeroIn 0.7s cubic-bezier(.16,1,.3,1) both;
+    }
+    .ins-hero-anim-1 { animation-delay: 0.05s; }
+    .ins-hero-anim-2 { animation-delay: 0.15s; }
+    .ins-hero-anim-3 { animation-delay: 0.28s; }
+    .ins-hero-anim-4 { animation-delay: 0.42s; }
+
+    .ins-reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.65s cubic-bezier(.16,1,.3,1),
+                  transform 0.65s cubic-bezier(.16,1,.3,1);
+    }
+    .ins-reveal.vis { opacity: 1; transform: none; }
+    .ins-reveal-d1 { transition-delay: 0.1s; }
+    .ins-reveal-d2 { transition-delay: 0.2s; }
+
+  </style>
+</head>
+<body>
+
+  <!-- ── NAV ────────────────────────────────────────────────────── -->
+  <nav class="site-nav">
+    <a href="index.html" class="nav-logotype">
+      <svg class="nav-mark" width="26" height="11" viewBox="0 0 63 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M13.9091 16.4785C13.9091 15.0061 15.1111 13.8125 16.5937 13.8125H19.2273C22.1644 13.8125 24.5455 16.177 24.5455 19.0938V21.5682C24.5455 24.0158 26.5435 26 29.0083 26H33.9917C36.4565 26 38.4545 24.0158 38.4545 21.5682V19.0938C38.4545 16.177 40.8356 13.8125 43.7727 13.8125H46.4062C47.8889 13.8125 49.0909 15.0061 49.0909 16.4785V19.0938C49.0909 22.908 52.2046 26 56.0455 26C59.8863 26 63 22.908 63 19.0938C63 15.2795 59.8863 12.1875 56.0455 12.1875H53.4119C51.9292 12.1875 50.7273 10.9939 50.7273 9.52148V4.43182C50.7273 1.98419 48.7292 0 46.2645 0H41.281C38.8162 0 36.8182 1.98419 36.8182 4.43182V6.90625C36.8182 9.823 34.4372 12.1875 31.5 12.1875C28.5628 12.1875 26.1818 9.823 26.1818 6.90625V4.43182C26.1818 1.98419 24.1837 0 21.719 0H16.7355C14.2708 0 12.2727 1.98419 12.2727 4.43182V9.52148C12.2727 10.9939 11.0708 12.1875 9.58807 12.1875H6.95455C3.11366 12.1875 0 15.2795 0 19.0938C0 22.908 3.11366 26 6.95455 26C10.7954 26 13.9091 22.908 13.9091 19.0938V16.4785Z" fill="currentColor"/>
+      </svg>
+      <span>MotorBrands</span>
+    </a>
+    <div class="nav-right">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <svg class="icon-moon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">
+          <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 6.5L8 1.5L14 6.5V14H10V10H6V14H2V6.5Z"/></svg>
+          Home
+        </a>
+        <a href="about.html" class="nav-link">
+          <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="8" cy="8" r="6"/><line x1="8" y1="7" x2="8" y2="11"/><circle cx="8" cy="5" r="0.5" fill="currentColor" stroke="none"/></svg>
+          About
+        </a>
+        <a href="insights.html" class="nav-link nav-link-active">
+          <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><polyline points="1,13 5,13 5,9 9,9 9,5 13,5 13,1"/><line x1="1" y1="13" x2="15" y2="13"/></svg>
+          Insights
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── HERO ───────────────────────────────────────────────────── -->
+  <section class="ins-hero">
+    <p class="ins-eyebrow ins-hero-anim ins-hero-anim-1">MOTORBRANDS · INSIGHTS</p>
+
+    <div class="ins-hero-layout">
+      <h1 class="ins-hero-title ins-hero-anim ins-hero-anim-2">
+        El universo<br>del automóvil,<br>en datos.
+      </h1>
+      <div class="ins-hero-right ins-hero-anim ins-hero-anim-3">
+        <p class="ins-hero-sub">La industria del automóvil es el mayor esfuerzo industrial colectivo de la historia. Desde los talleres artesanales del siglo XIX hasta los gigantes tecnológicos del XXI.</p>
+        <div class="ins-kpis">
+          <div class="ins-kpi">
+            <span class="ins-kpi-num">182</span>
+            <span class="ins-kpi-label">Marcas</span>
+          </div>
+          <div class="ins-kpi">
+            <span class="ins-kpi-num">30+</span>
+            <span class="ins-kpi-label">Países</span>
+          </div>
+          <div class="ins-kpi">
+            <span class="ins-kpi-num">+125</span>
+            <span class="ins-kpi-label">Años</span>
+          </div>
+          <div class="ins-kpi">
+            <span class="ins-kpi-num">20+</span>
+            <span class="ins-kpi-label">Grupos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ins-hero-rule ins-hero-anim ins-hero-anim-4"></div>
+  </section>
+
+  <!-- ── 01 · ORIGEN ────────────────────────────────────────────── -->
+  <section class="ins-chapter">
+    <div class="ins-ch-head ins-reveal">
+      <span class="ins-ch-num">01</span>
+      <span class="ins-ch-sep">·</span>
+      <span class="ins-ch-tag">ORIGEN</span>
+    </div>
+    <div class="ins-ch-intro">
+      <h2 class="ins-ch-title ins-reveal">China produce más<br>marcas de coches<br>que Europa entera.</h2>
+      <p class="ins-ch-desc ins-reveal ins-reveal-d1">Con <strong>55 marcas</strong>, China lidera el mundo con más del doble que el siguiente país. Estados Unidos (35) e Italia (20) completan el podio. Juntos, los tres países concentran el <strong>63%</strong> de todas las marcas documentadas.</p>
+    </div>
+    <div class="ins-viz-card ins-reveal ins-reveal-d2">
+      <svg id="viz-map-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+      <div class="ins-map-country-panel" id="map-country-panel"></div>
+      <div class="ins-country-bars" id="country-bars">
+        <div class="ins-cb-label-row">Top 10 países por número de marcas</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 02 · PODER ─────────────────────────────────────────────── -->
+  <section class="ins-chapter">
+    <div class="ins-ch-head ins-reveal">
+      <span class="ins-ch-num">02</span>
+      <span class="ins-ch-sep">·</span>
+      <span class="ins-ch-tag">PODER</span>
+    </div>
+    <div class="ins-ch-intro">
+      <h2 class="ins-ch-title ins-reveal">14 marcas bajo<br>el mismo techo.</h2>
+      <p class="ins-ch-desc ins-reveal ins-reveal-d1"><strong>Stellantis</strong> es el grupo más grande con 14 marcas — desde Fiat hasta Maserati. <strong>Volkswagen Group</strong> controla 10. La irrupción de Geely (8) y Chery (7) remodela el mapa del poder hacia Asia.</p>
+    </div>
+    <div class="ins-viz-card ins-reveal ins-reveal-d2">
+      <div class="ins-sunburst-layout">
+        <div class="ins-sb-svg-area">
+          <svg id="viz-sunburst" viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg"></svg>
+        </div>
+        <div class="ins-sb-legend">
+          <div class="ins-sb-legend-ttl">Grupos corporativos</div>
+          <div id="sb-legend"></div>
+          <div id="sb-brand-list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 03 · HISTORIA ──────────────────────────────────────────── -->
+  <section class="ins-chapter">
+    <div class="ins-ch-head ins-reveal">
+      <span class="ins-ch-num">03</span>
+      <span class="ins-ch-sep">·</span>
+      <span class="ins-ch-tag">HISTORIA</span>
+    </div>
+    <div class="ins-ch-intro">
+      <h2 class="ins-ch-title ins-reveal">En la última década<br>nacieron más marcas<br>que en los 60 años<br>anteriores.</h2>
+      <p class="ins-ch-desc ins-reveal ins-reveal-d1">El boom eléctrico chino y la democratización del capital dispararon la creación de marcas a partir de 2010. <strong>47 marcas</strong> nacieron en esa sola década — más que en cualquier otro período de la historia del automóvil.</p>
+    </div>
+    <div class="ins-viz-card ins-reveal ins-reveal-d2">
+      <div class="ins-tl-wrap" id="viz-timeline"></div>
+    </div>
+  </section>
+
+  <!-- ── 04 · ENERGÍA ───────────────────────────────────────────── -->
+  <section class="ins-chapter">
+    <div class="ins-ch-head ins-reveal">
+      <span class="ins-ch-num">04</span>
+      <span class="ins-ch-sep">·</span>
+      <span class="ins-ch-tag">ENERGÍA</span>
+    </div>
+    <div class="ins-ch-intro">
+      <h2 class="ins-ch-title ins-reveal">El eléctrico ya<br>supera a la<br>gasolina.</h2>
+      <p class="ins-ch-desc ins-reveal ins-reveal-d1">Por primera vez en la historia, más marcas incluyen tecnología eléctrica que exclusivamente de combustión. La transición energética no es una tendencia — es el <strong>presente</strong>.</p>
+    </div>
+    <div class="ins-viz-card ins-reveal ins-reveal-d2">
+      <div class="ins-fuel-grid">
+        <div class="ins-fuel-cell ins-fuel-cell--e">
+          <div class="ins-fuel-label">Eléctrico</div>
+          <div class="ins-fuel-big">147</div>
+          <div class="ins-fuel-sub">marcas con variante EV<br>80,8% del total</div>
+          <div class="ins-fuel-bar-b"></div>
+        </div>
+        <div class="ins-fuel-cell ins-fuel-cell--c">
+          <div class="ins-fuel-label">Combustión</div>
+          <div class="ins-fuel-big">131</div>
+          <div class="ins-fuel-sub">marcas con variante ICE<br>72,0% del total</div>
+          <div class="ins-fuel-bar-b"></div>
+        </div>
+        <div class="ins-fuel-cell ins-fuel-cell--h">
+          <div class="ins-fuel-label">Híbrido</div>
+          <div class="ins-fuel-big">95</div>
+          <div class="ins-fuel-sub">marcas con variante híbrida<br>52,2% del total</div>
+          <div class="ins-fuel-bar-b"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 05 · MOTOS ───────────────────────────────────────────── -->
+  <section class="ins-chapter">
+    <div class="ins-ch-head ins-reveal">
+      <span class="ins-ch-num">05</span>
+      <span class="ins-ch-sep">·</span>
+      <span class="ins-ch-tag">MOTOS</span>
+    </div>
+    <div class="ins-ch-intro">
+      <h2 class="ins-ch-title ins-reveal">El motor de dos<br>ruedas tiene<br>140 años.<br>Italia aún lidera.</h2>
+      <p class="ins-ch-desc ins-reveal ins-reveal-d1">Con <strong>10 marcas</strong>, Italia domina el mundo de la moto como no lo hace en ninguna otra categoría. Piaggio controla cuatro de ellas. Y aquí la combustión aún reina: <strong>29 de 33 marcas</strong> mantienen variantes de gasolina, a contracorriente del resto del catálogo.</p>
+    </div>
+    <div class="ins-viz-card ins-reveal ins-reveal-d2">
+      <div class="ins-moto-stats">
+        <div class="ins-moto-stat-cell">
+          <div class="ins-moto-stat-num">33</div>
+          <div class="ins-moto-stat-label">marcas de moto</div>
+        </div>
+        <div class="ins-moto-stat-cell">
+          <div class="ins-moto-stat-num">🇮🇹 10</div>
+          <div class="ins-moto-stat-label">marcas italianas — más que ningún otro país</div>
+        </div>
+        <div class="ins-moto-stat-cell">
+          <div class="ins-moto-stat-num">1884</div>
+          <div class="ins-moto-stat-label">año de fundación más antiguo (Piaggio)</div>
+        </div>
+      </div>
+      <div class="ins-moto-grid" id="moto-grid"></div>
+    </div>
+  </section>
+
+  <!-- ── 06 · AUTÓNOMO ─────────────────────────────────────────── -->
+  <section class="ins-chapter">
+    <div class="ins-ch-head ins-reveal">
+      <span class="ins-ch-num">06</span>
+      <span class="ins-ch-sep">·</span>
+      <span class="ins-ch-tag">AUTÓNOMO</span>
+    </div>
+    <div class="ins-ch-intro">
+      <h2 class="ins-ch-title ins-reveal">22 empresas que<br>no fabrican coches.<br>Programan<br>el conductor.</h2>
+      <p class="ins-ch-desc ins-reveal ins-reveal-d1">El vehículo autónomo es la categoría más joven y más concentrada en dos países: <strong>EE.UU. y China</strong> acaparan el 81% de las marcas. Casi todas nacieron en la última década y el <strong>91% apuestan por el eléctrico</strong> como plataforma base.</p>
+    </div>
+    <div class="ins-viz-card ins-reveal ins-reveal-d2">
+      <div class="ins-auto-stats">
+        <div class="ins-auto-stat-cell">
+          <span class="ins-auto-stat-num">22</span>
+          <span class="ins-auto-stat-label">marcas autónomas activas</span>
+        </div>
+        <div class="ins-auto-stat-cell">
+          <span class="ins-auto-stat-num">91%</span>
+          <span class="ins-auto-stat-label">incluyen variante eléctrica</span>
+        </div>
+        <div class="ins-auto-stat-cell">
+          <span class="ins-auto-stat-num">2016</span>
+          <span class="ins-auto-stat-label">año pico de fundaciones</span>
+        </div>
+      </div>
+      <div class="ins-auto-grid" id="auto-grid"></div>
+    </div>
+  </section>
+
+  <!-- ── CODA ──────────────────────────────────────────────────── -->
+  <section class="ins-coda">
+    <div class="ins-coda-inner">
+      <div class="ins-coda-left">
+        <p class="ins-coda-eyebrow">MOTORBRANDS · INSIGHTS</p>
+        <h2 class="ins-coda-title">Detrás de cada<br>número, hay<br>una marca.</h2>
+        <p class="ins-coda-sub">Desde el primer automóvil de 1886 hasta la IA que conduce sola en 2024. El universo del automóvil es un reflejo de cada época — la tecnología disponible, el capital invertido y la obsesión de miles de personas por mover el mundo.</p>
+      </div>
+      <div class="ins-coda-right">
+        <div class="ins-coda-stats">
+          <div class="ins-coda-stat">
+            <span class="ins-coda-stat-label">Coches</span>
+            <span class="ins-coda-stat-val c-car">127</span>
+          </div>
+          <div class="ins-coda-stat">
+            <span class="ins-coda-stat-label">Motocicletas</span>
+            <span class="ins-coda-stat-val c-moto">33</span>
+          </div>
+          <div class="ins-coda-stat">
+            <span class="ins-coda-stat-label">Vehículos autónomos</span>
+            <span class="ins-coda-stat-val c-auto">22</span>
+          </div>
+          <div class="ins-coda-stat">
+            <span class="ins-coda-stat-label">Total documentadas</span>
+            <span class="ins-coda-stat-val">182</span>
+          </div>
+        </div>
+        <a href="index.html" class="ins-coda-cta">
+          Explorar el catálogo completo
+          <svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 6h8"/><path d="M7 2.5L10.5 6 7 9.5"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TOOLTIP ────────────────────────────────────────────────── -->
+  <!-- ── Footer ──────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-left">
+      <a href="index.html" class="footer-logotype">
+        <svg class="footer-mark" width="20" height="9" viewBox="0 0 63 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M13.9091 16.4785C13.9091 15.0061 15.1111 13.8125 16.5937 13.8125H19.2273C22.1644 13.8125 24.5455 16.177 24.5455 19.0938V21.5682C24.5455 24.0158 26.5435 26 29.0083 26H33.9917C36.4565 26 38.4545 24.0158 38.4545 21.5682V19.0938C38.4545 16.177 40.8356 13.8125 43.7727 13.8125H46.4062C47.8889 13.8125 49.0909 15.0061 49.0909 16.4785V19.0938C49.0909 22.908 52.2046 26 56.0455 26C59.8863 26 63 22.908 63 19.0938C63 15.2795 59.8863 12.1875 56.0455 12.1875H53.4119C51.9292 12.1875 50.7273 10.9939 50.7273 9.52148V4.43182C50.7273 1.98419 48.7292 0 46.2645 0H41.281C38.8162 0 36.8182 1.98419 36.8182 4.43182V6.90625C36.8182 9.823 34.4372 12.1875 31.5 12.1875C28.5628 12.1875 26.1818 9.823 26.1818 6.90625V4.43182C26.1818 1.98419 24.1837 0 21.719 0H16.7355C14.2708 0 12.2727 1.98419 12.2727 4.43182V9.52148C12.2727 10.9939 11.0708 12.1875 9.58807 12.1875H6.95455C3.11366 12.1875 0 15.2795 0 19.0938C0 22.908 3.11366 26 6.95455 26C10.7954 26 13.9091 22.908 13.9091 19.0938V16.4785Z" fill="currentColor"/>
+        </svg>
+        <strong>MotorBrands</strong>
+      </a>
+      <span class="footer-credit">Un proyecto diseñado y creado por <a href="https://oscarlp.com" target="_blank" rel="noopener" class="footer-author">Óscar López</a></span>
+    </div>
+    <span class="footer-meta">Datos actualizados 2026</span>
+  </footer>
+
+  <div id="ins-tip" role="tooltip" aria-hidden="true"></div>
+
+  <script src="data.js"></script>
+  <script src="nav.js"></script>
+  <script>
+  /* ─────────────────────────────────────────────────────────────
+     INSIGHTS · visualizations
+  ───────────────────────────────────────────────────────────── */
+
+  // ── SCROLL REVEAL ─────────────────────────────────────────────
+  {
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('vis');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.ins-reveal').forEach(el => io.observe(el));
+  }
+
+  // ── TOOLTIP ───────────────────────────────────────────────────
+  const tip = document.getElementById('ins-tip');
+  function showTip(e, html) {
+    tip.innerHTML = html;
+    tip.classList.add('show');
+    moveTip(e);
+  }
+  function moveTip(e) {
+    const x = Math.min(e.clientX + 14, window.innerWidth - 260);
+    const y = Math.max(e.clientY - 56, 8);
+    tip.style.left = x + 'px';
+    tip.style.top  = y + 'px';
+  }
+  function hideTip() { tip.classList.remove('show'); }
+
+  // ── WORLD MAP ─────────────────────────────────────────────────
+  {
+    const COORDS = {
+      'China':          [35.86, 104.19],
+      'United States':  [37.09, -95.71],
+      'Italy':          [41.87,  12.57],
+      'Japan':          [36.20, 138.25],
+      'United Kingdom': [55.38,  -3.44],
+      'Germany':        [51.17,  10.45],
+      'France':         [46.23,   2.21],
+      'Sweden':         [60.13,  18.64],
+      'Spain':          [40.46,  -3.75],
+      'South Korea':    [35.91, 127.77],
+      'India':          [20.59,  78.96],
+      'Romania':        [45.94,  24.97],
+      'Czech Republic': [49.82,  15.47],
+      'Taiwan':         [23.70, 120.96],
+      'Croatia':        [45.10,  15.20],
+      'Austria':        [47.52,  14.55],
+      'Netherlands':    [52.13,   5.29],
+      'Malaysia':       [ 4.21, 101.97],
+      'Australia':      [-25.27, 133.78],
+      'Russia':         [61.52, 105.32],
+      'Turkey':         [38.96,  35.24],
+      'Brazil':         [-14.24, -51.93],
+      'Serbia':         [44.02,  21.01],
+      'Thailand':       [15.87, 100.99],
+      'Singapore':      [ 1.35, 103.82],
+      'Portugal':       [39.40,  -8.22],
+      'Poland':         [51.92,  19.15],
+      'Norway':         [60.47,   8.47],
+      'Switzerland':    [46.82,   8.23],
+      'Belgium':        [50.50,   4.47],
+      'Argentina':      [-38.42, -63.62],
+      'Mexico':         [23.63, -102.55],
+      'Canada':         [56.13, -106.35],
+      'Israel':         [31.05,  34.85],
+      'Europe':         [50.00,  15.00],
+      'Bangladesh':     [23.68,  90.36],
+      'Indonesia':      [-0.79, 113.92],
+      'UAE':            [23.42,  53.85],
+      'Denmark':        [56.26,   9.50],
+      'Finland':        [61.92,  25.75],
+    };
+
+    // Simplified land shapes as [lon, lat] arrays (equirectangular)
+    const LANDS = [
+      // North America
+      [[-167,70],[-140,70],[-135,58],[-125,50],[-122,37],[-117,32],[-97,22],[-87,15],[-83,9],[-77,8],[-80,9],[-85,15],[-90,18],[-82,28],[-75,38],[-70,42],[-63,45],[-55,52],[-62,58],[-64,65],[-55,73],[-55,76],[-64,76],[-75,80],[-80,82],[-100,80],[-120,76],[-135,70]],
+      // Greenland
+      [[-53,83],[-20,84],[-18,76],[-25,70],[-43,60],[-53,60],[-57,68],[-53,76]],
+      // South America
+      [[-72,12],[-62,10],[-50,5],[-50,0],[-35,-5],[-37,-10],[-39,-15],[-43,-23],[-51,-33],[-58,-38],[-68,-52],[-65,-55],[-72,-52],[-73,-42],[-71,-30],[-71,-18],[-80,-5],[-77,5],[-75,10]],
+      // Europe (blob: Atlantic coast → Nordkapp → E Russia → Black Sea → Mediterranean)
+      [[-9,36],[-9,44],[-4,48],[2,51],[10,55],[28,70],[40,68],[38,54],[36,44],[28,38],[36,38],[22,37],[15,38],[12,44],[5,43],[-4,44]],
+      // Africa
+      [[-5,35],[10,37],[25,32],[37,22],[43,12],[51,12],[42,0],[40,-10],[36,-18],[35,-35],[18,-35],[17,-30],[12,-18],[9,-3],[9,5],[-16,15],[-17,21],[-13,28]],
+      // Asia (clockwise from Turkey N coast → Bering → back through Russia)
+      [[36,42],[42,42],[50,42],[60,40],[68,38],[70,25],[72,22],[77,8],[80,10],[88,22],[92,22],[98,18],[103,5],[105,1],[103,3],[103,10],[110,22],[114,22],[122,32],[122,37],[121,40],[120,42],[125,42],[130,45],[133,47],[140,48],[143,54],[143,60],[158,62],[162,60],[170,64],[175,68],[160,72],[140,72],[105,72],[80,73],[60,68],[42,68],[38,62],[38,54],[36,46]],
+      // Australia
+      [[114,-22],[114,-34],[118,-34],[122,-34],[130,-34],[140,-37],[148,-38],[150,-35],[152,-28],[145,-18],[136,-14],[130,-12],[128,-15],[122,-18]],
+      // Japan
+      [[130,42],[135,35],[138,34],[141,41],[143,44],[140,44],[133,44]],
+    ];
+
+    const cData = {};
+    BRANDS.forEach(b => {
+      if (!cData[b.country]) cData[b.country] = { count: 0, flag: b.flag, brands: [] };
+      cData[b.country].count++;
+      cData[b.country].brands.push(b);
+    });
+
+    const W = 900, H = 380, PAD = 24;
+
+    function proj(lat, lon) {
+      const x = ((lon + 180) / 360) * (W - PAD*2) + PAD;
+      const y = ((90  - lat) / 180) * (H - PAD*2) + PAD;
+      return [+x.toFixed(1), +y.toFixed(1)];
+    }
+
+    function landPath(coords) {
+      return coords.map(([lon, lat], i) => {
+        const [x, y] = proj(lat, lon);
+        return `${i === 0 ? 'M' : 'L'}${x},${y}`;
+      }).join(' ') + 'Z';
+    }
+
+    const ns = 'http://www.w3.org/2000/svg';
+    const svg = document.getElementById('viz-map-svg');
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+
+    // Grid lines
+    const grid = document.createElementNS(ns, 'g');
+    grid.setAttribute('stroke', 'var(--color-rule)');
+    grid.setAttribute('stroke-width', '0.5');
+    for (let lat = -60; lat <= 90; lat += 30) {
+      const [,y] = proj(lat, 0);
+      const l = document.createElementNS(ns, 'line');
+      l.setAttribute('x1', PAD); l.setAttribute('y1', y);
+      l.setAttribute('x2', W-PAD); l.setAttribute('y2', y);
+      grid.appendChild(l);
+    }
+    for (let lon = -180; lon <= 180; lon += 60) {
+      const [x] = proj(0, lon);
+      const l = document.createElementNS(ns, 'line');
+      l.setAttribute('x1', x); l.setAttribute('y1', PAD);
+      l.setAttribute('x2', x); l.setAttribute('y2', H-PAD);
+      grid.appendChild(l);
+    }
+    svg.appendChild(grid);
+
+    // Continent fills
+    const landG = document.createElementNS(ns, 'g');
+    landG.setAttribute('fill', 'var(--color-ink)');
+    landG.setAttribute('fill-opacity', '0.07');
+    landG.setAttribute('stroke', 'var(--color-ink)');
+    landG.setAttribute('stroke-opacity', '0.18');
+    landG.setAttribute('stroke-width', '0.8');
+    landG.setAttribute('stroke-linejoin', 'round');
+    LANDS.forEach(coords => {
+      const p = document.createElementNS(ns, 'path');
+      p.setAttribute('d', landPath(coords));
+      landG.appendChild(p);
+    });
+    svg.appendChild(landG);
+
+    const maxC = Math.max(...Object.values(cData).map(d => d.count));
+    let activeCountry = null;
+    const panel = document.getElementById('map-country-panel');
+
+    // Dots
+    const dotsG = document.createElementNS(ns, 'g');
+    Object.entries(cData).forEach(([country, d]) => {
+      if (!COORDS[country]) return;
+      const [lat, lon] = COORDS[country];
+      const [cx, cy] = proj(lat, lon);
+      const rSolid = +(3.5 + (d.count / maxC) * 11).toFixed(1);
+      const rGlow  = +(rSolid * 2.4).toFixed(1);
+
+      const glow = document.createElementNS(ns, 'circle');
+      glow.setAttribute('cx', cx); glow.setAttribute('cy', cy);
+      glow.setAttribute('r', rGlow);
+      glow.setAttribute('fill', 'var(--color-accent)');
+      glow.setAttribute('opacity', '0.12');
+      glow.dataset.country = country;
+      dotsG.appendChild(glow);
+
+      const dot = document.createElementNS(ns, 'circle');
+      dot.setAttribute('cx', cx); dot.setAttribute('cy', cy);
+      dot.setAttribute('r', rSolid);
+      dot.setAttribute('fill', 'var(--color-accent)');
+      dot.setAttribute('opacity', '0.85');
+      dot.setAttribute('class', 'map-dot');
+      dot.style.cursor = 'pointer';
+      dot.dataset.country = country;
+      dot.dataset.count = d.count;
+      dotsG.appendChild(dot);
+    });
+    svg.appendChild(dotsG);
+
+    // Hover tooltip
+    svg.addEventListener('mousemove', e => {
+      const el = e.target;
+      if (el.classList.contains('map-dot')) {
+        const d = cData[el.dataset.country];
+        const preview = d.brands.slice(0, 4).map(b => b.name).join(', ') + (d.brands.length > 4 ? ` +${d.brands.length - 4}` : '');
+        showTip(e, `<b>${el.dataset.country}</b><span>${el.dataset.count} marca${el.dataset.count > 1 ? 's' : ''} · ${preview}</span>`);
+      } else { hideTip(); }
+    });
+    svg.addEventListener('mouseleave', hideTip);
+
+    // Click → show brand chips
+    svg.addEventListener('click', e => {
+      const el = e.target;
+      if (!el.classList.contains('map-dot')) return;
+      const country = el.dataset.country;
+      hideTip();
+      if (activeCountry === country) {
+        activeCountry = null;
+        panel.classList.remove('open');
+        panel.innerHTML = '';
+        dotsG.querySelectorAll('.map-dot').forEach(d => d.setAttribute('opacity', '0.85'));
+        return;
+      }
+      activeCountry = country;
+      dotsG.querySelectorAll('.map-dot').forEach(d => {
+        d.setAttribute('opacity', d.dataset.country === country ? '1' : '0.25');
+      });
+      const d = cData[country];
+      const chips = d.brands
+        .sort((a, b) => a.founded - b.founded)
+        .map(b => `<span class="ins-map-cp-chip">
+          <span style="width:7px;height:7px;border-radius:50%;background:${b.color||'#888'};flex-shrink:0;display:inline-block"></span>
+          ${b.name}<span style="font-size:0.5625rem;color:var(--color-ink-3);margin-left:2px">${b.founded}</span>
+        </span>`).join('');
+      panel.innerHTML = `<div class="ins-map-cp-title">${d.flag} ${country} · ${d.count} marca${d.count > 1 ? 's' : ''}</div><div class="ins-map-cp-chips">${chips}</div>`;
+      panel.classList.add('open');
+    });
+
+    // Country bar chart (top 10, two columns)
+    const sorted = Object.entries(cData)
+      .sort((a, b) => b[1].count - a[1].count)
+      .slice(0, 10);
+    const maxBar = sorted[0][1].count;
+    const barsContainer = document.getElementById('country-bars');
+
+    sorted.forEach(([country, d]) => {
+      const row = document.createElement('div');
+      row.className = 'ins-cb-row';
+      row.innerHTML = `
+        <div class="ins-cb-meta">
+          <span class="ins-cb-flag">${d.flag}</span>
+          <span class="ins-cb-name">${country}</span>
+        </div>
+        <div class="ins-cb-track">
+          <div class="ins-cb-fill" style="width:0" data-w="${(d.count/maxBar*100).toFixed(1)}%"></div>
+        </div>
+        <span class="ins-cb-count">${d.count}</span>`;
+      barsContainer.appendChild(row);
+    });
+
+    const barsIO = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) return;
+      barsContainer.querySelectorAll('.ins-cb-fill').forEach((el, i) => {
+        setTimeout(() => { el.style.width = el.dataset.w; }, i * 55);
+      });
+      barsIO.disconnect();
+    }, { threshold: 0.25 });
+    barsIO.observe(barsContainer);
+  }
+
+  // ── SUNBURST ──────────────────────────────────────────────────
+  {
+    const PALETTE = [
+      '#4255C9','#0891B2','#059669','#D97706','#DC2626',
+      '#7C3AED','#0284C7','#65A30D','#EA580C','#DB2777',
+      '#0D9488','#4F46E5','#9333EA','#16A34A','#CA8A04',
+      '#2563EB','#64748B','#78716C','#475569','#374151',
+    ];
+
+    // Group brands
+    const gMap = {};
+    BRANDS.forEach(b => {
+      const g = b.group || 'Independiente';
+      if (!gMap[g]) gMap[g] = [];
+      gMap[g].push(b);
+    });
+
+    const multi = Object.entries(gMap)
+      .filter(([, bs]) => bs.length > 1)
+      .sort((a, b) => b[1].length - a[1].length);
+
+    const singles = Object.values(gMap)
+      .filter(bs => bs.length === 1)
+      .map(bs => bs[0]);
+
+    const groups = [...multi];
+    if (singles.length) groups.push(['Independientes', singles]);
+
+    const total = BRANDS.length;
+    const CX = 260, CY = 260;
+    const R0 = 58, R1 = 150, R2 = 248;
+    const GAP = 0.005;
+
+    function arcPath(r1, r2, a1, a2) {
+      if (a2 - a1 < 0.002) return '';
+      const cos = Math.cos, sin = Math.sin;
+      const lg = (a2 - a1) > Math.PI ? 1 : 0;
+      const x1 = CX + r2*cos(a1), y1 = CY + r2*sin(a1);
+      const x2 = CX + r2*cos(a2), y2 = CY + r2*sin(a2);
+      const x3 = CX + r1*cos(a2), y3 = CY + r1*sin(a2);
+      const x4 = CX + r1*cos(a1), y4 = CY + r1*sin(a1);
+      return `M${x1.toFixed(2)},${y1.toFixed(2)} A${r2},${r2},0,${lg},1,${x2.toFixed(2)},${y2.toFixed(2)} L${x3.toFixed(2)},${y3.toFixed(2)} A${r1},${r1},0,${lg},0,${x4.toFixed(2)},${y4.toFixed(2)}Z`;
+    }
+
+    const sbSvg = document.getElementById('viz-sunburst');
+    const ns2 = 'http://www.w3.org/2000/svg';
+    const legendEl = document.getElementById('sb-legend');
+    const brandListEl = document.getElementById('sb-brand-list');
+
+    let startA = -Math.PI / 2;
+
+    groups.forEach(([gName, brands], gi) => {
+      const gAngle = (brands.length / total) * Math.PI * 2 - GAP;
+      if (gAngle < 0.002) return;
+      const gColor = PALETTE[gi % PALETTE.length];
+      const endA = startA + gAngle;
+
+      // Inner arc (group)
+      const gPath = document.createElementNS(ns2, 'path');
+      gPath.setAttribute('d', arcPath(R0 + 4, R1 - 4, startA + GAP/2, endA));
+      gPath.setAttribute('fill', gColor);
+      gPath.setAttribute('opacity', '0.82');
+      gPath.setAttribute('class', 'sb-g');
+      gPath.dataset.gi = gi;
+      gPath.style.cursor = 'pointer';
+      gPath.style.transition = 'opacity .15s';
+      sbSvg.appendChild(gPath);
+
+      // Outer arcs (brands)
+      const bSpan = gAngle / brands.length;
+      brands.forEach((brand, bi) => {
+        const bs = startA + GAP/2 + bi * bSpan;
+        const be = bs + bSpan - GAP * 0.4;
+        const bPath = document.createElementNS(ns2, 'path');
+        bPath.setAttribute('d', arcPath(R1 + 3, R2, bs, be));
+        bPath.setAttribute('fill', brand.color || '#888');
+        bPath.setAttribute('opacity', '0.88');
+        bPath.setAttribute('class', 'sb-b');
+        bPath.dataset.gi = gi;
+        bPath.dataset.name = brand.name;
+        bPath.style.cursor = 'pointer';
+        bPath.style.transition = 'opacity .15s';
+        sbSvg.appendChild(bPath);
+      });
+
+      // Legend item (skip Independientes for brevity if large)
+      if (gName !== 'Independientes') {
+        const item = document.createElement('div');
+        item.className = 'ins-sb-item';
+        item.dataset.gi = gi;
+        item.innerHTML = `
+          <span class="ins-sb-dot" style="background:${gColor}"></span>
+          <span class="ins-sb-name">${gName}</span>
+          <span class="ins-sb-n">${brands.length}</span>`;
+        legendEl.appendChild(item);
+      }
+
+      startA += gAngle + GAP;
+    });
+
+    // Center circle
+    const circ = document.createElementNS(ns2, 'circle');
+    circ.setAttribute('cx', CX); circ.setAttribute('cy', CY);
+    circ.setAttribute('r', R0);
+    circ.setAttribute('fill', 'var(--color-paper-2)');
+    sbSvg.appendChild(circ);
+
+    const tNum = document.createElementNS(ns2, 'text');
+    tNum.setAttribute('x', CX); tNum.setAttribute('y', CY - 4);
+    tNum.setAttribute('text-anchor', 'middle');
+    tNum.setAttribute('font-family', "'Be Vietnam Pro',sans-serif");
+    tNum.setAttribute('font-size', '28');
+    tNum.setAttribute('font-weight', '800');
+    tNum.setAttribute('fill', 'var(--color-ink)');
+    tNum.textContent = total;
+    sbSvg.appendChild(tNum);
+
+    const tLbl = document.createElementNS(ns2, 'text');
+    tLbl.setAttribute('x', CX); tLbl.setAttribute('y', CY + 15);
+    tLbl.setAttribute('text-anchor', 'middle');
+    tLbl.setAttribute('font-family', "'Be Vietnam Pro',sans-serif");
+    tLbl.setAttribute('font-size', '9');
+    tLbl.setAttribute('font-weight', '600');
+    tLbl.setAttribute('fill', 'var(--color-ink-3)');
+    tLbl.setAttribute('letter-spacing', '1.8');
+    tLbl.textContent = 'MARCAS';
+    sbSvg.appendChild(tLbl);
+
+    // Interactions
+    let activeGi = null;
+
+    function highlightGroup(gi) {
+      if (gi === activeGi) return;
+      activeGi = gi;
+      sbSvg.querySelectorAll('.sb-g, .sb-b').forEach(p => {
+        p.style.opacity = (gi === null || p.dataset.gi === gi) ? (p.classList.contains('sb-g') ? '0.82' : '0.88') : '0.15';
+      });
+      legendEl.querySelectorAll('.ins-sb-item').forEach(it => {
+        it.classList.toggle('hl', it.dataset.gi === gi);
+      });
+    }
+
+    function showBrandList(gi) {
+      if (gi === null) { brandListEl.innerHTML = ''; return; }
+      const [gName, brands] = groups[parseInt(gi)];
+      if (gName === 'Independientes') return;
+      const chips = brands.map(b => `
+        <span class="ins-sb-brand-chip">
+          <span class="ins-sb-brand-swatch" style="background:${b.color||'#888'}"></span>${b.name}
+        </span>`).join('');
+      brandListEl.innerHTML = `
+        <div class="ins-sb-brand-list">
+          <div class="ins-sb-brand-list-ttl">${gName}</div>
+          ${chips}
+        </div>`;
+    }
+
+    sbSvg.addEventListener('mouseover', e => {
+      const gi = e.target.dataset.gi;
+      if (gi !== undefined) highlightGroup(gi);
+    });
+    sbSvg.addEventListener('mousemove', e => {
+      const el = e.target;
+      if (el.dataset.gi !== undefined) {
+        const [gName, brands] = groups[parseInt(el.dataset.gi)];
+        if (el.classList.contains('sb-b')) {
+          showTip(e, `<b>${el.dataset.name}</b><span>${gName}</span>`);
+        } else {
+          showTip(e, `<b>${gName}</b><span>${brands.length} marcas</span>`);
+        }
+      } else { hideTip(); }
+    });
+    sbSvg.addEventListener('mouseleave', () => {
+      highlightGroup(null);
+      hideTip();
+    });
+    sbSvg.addEventListener('click', e => {
+      const gi = e.target.dataset.gi;
+      if (gi !== undefined) showBrandList(gi);
+    });
+
+    legendEl.addEventListener('mouseover', e => {
+      const item = e.target.closest('.ins-sb-item');
+      if (item) highlightGroup(item.dataset.gi);
+    });
+    legendEl.addEventListener('mouseleave', () => highlightGroup(null));
+    legendEl.addEventListener('click', e => {
+      const item = e.target.closest('.ins-sb-item');
+      if (item) showBrandList(item.dataset.gi);
+    });
+  }
+
+  // ── TIMELINE ──────────────────────────────────────────────────
+  {
+    const DECADES = [
+      [1880,2],[1890,7],[1900,16],[1910,10],[1920,9],
+      [1930,7],[1940,14],[1950,9],[1960,7],[1970,3],
+      [1980,8],[1990,9],[2000,16],[2010,47],[2020,18],
+    ];
+
+    // Index brands by decade
+    const byDecade = {};
+    BRANDS.forEach(b => {
+      const d = Math.floor(b.founded / 10) * 10;
+      if (!byDecade[d]) byDecade[d] = [];
+      byDecade[d].push(b);
+    });
+
+    const wrap = document.getElementById('viz-timeline');
+    const maxN = Math.max(...DECADES.map(d => d[1]));
+
+    DECADES.forEach(([decade, n]) => {
+      const isPeak = n === maxN;
+      const row = document.createElement('div');
+      row.className = 'ins-tl-row';
+      row.innerHTML = `
+        <span class="ins-tl-decade">${decade}s</span>
+        <div class="ins-tl-track">
+          <div class="ins-tl-fill${isPeak ? ' peak' : ''}" style="width:0"
+               data-w="${(n/maxN*100).toFixed(1)}%" data-decade="${decade}">
+            <span class="ins-tl-n">${n}</span>
+          </div>
+        </div>`;
+      wrap.appendChild(row);
+    });
+
+    // Detail panel
+    const detail = document.createElement('div');
+    detail.className = 'ins-tl-detail';
+    detail.id = 'tl-detail';
+    wrap.appendChild(detail);
+
+    const note = document.createElement('p');
+    note.className = 'ins-tl-note';
+    note.textContent = `Marcas por década de fundación · ${BRANDS.length} total · haz click en una barra para ver las marcas`;
+    wrap.appendChild(note);
+
+    // Click handler
+    let selectedDecade = null;
+    wrap.addEventListener('click', e => {
+      const fill = e.target.closest('.ins-tl-fill');
+      if (!fill) return;
+      const decade = parseInt(fill.dataset.decade);
+
+      if (selectedDecade === decade) {
+        // Toggle off
+        selectedDecade = null;
+        fill.classList.remove('ins-tl-selected');
+        detail.classList.remove('open');
+        detail.innerHTML = '';
+        return;
+      }
+
+      // Deselect previous
+      wrap.querySelectorAll('.ins-tl-fill.ins-tl-selected')
+          .forEach(el => el.classList.remove('ins-tl-selected'));
+
+      selectedDecade = decade;
+      fill.classList.add('ins-tl-selected');
+
+      const brands = (byDecade[decade] || []).sort((a, b) => a.founded - b.founded);
+      const chips = brands.map(b => `
+        <span class="ins-tl-chip">
+          <span class="ins-tl-chip-dot" style="background:${b.color||'#888'}"></span>
+          <span class="ins-tl-chip-flag">${b.flag}</span>
+          ${b.name}
+          <span class="ins-tl-chip-year">${b.founded}</span>
+        </span>`).join('');
+
+      detail.innerHTML = `
+        <div class="ins-tl-detail-title">${decade}s — ${brands.length} marcas</div>
+        <div class="ins-tl-detail-chips">${chips}</div>`;
+      detail.classList.add('open');
+      detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+
+    const tlIO = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) return;
+      wrap.querySelectorAll('.ins-tl-fill').forEach((el, i) => {
+        setTimeout(() => { el.style.width = el.dataset.w; }, i * 45);
+      });
+      tlIO.disconnect();
+    }, { threshold: 0.2 });
+    tlIO.observe(wrap);
+  }
+
+  // ── MOTO STRIP CHART ──────────────────────────────────────────
+  {
+    const motoBrands = BRANDS
+      .filter(b => b.category === 'moto')
+      .sort((a, b) => a.founded - b.founded);
+
+    // Group by country, sorted by count desc
+    const byCountry = {};
+    motoBrands.forEach(b => {
+      if (!byCountry[b.country]) byCountry[b.country] = [];
+      byCountry[b.country].push(b);
+    });
+    const countries = Object.entries(byCountry)
+      .sort((a, b) => b[1].length - a[1].length);
+
+    const ns = 'http://www.w3.org/2000/svg';
+    const L = 95, R = 18, T = 28, B = 12, RH = 36;
+    const SVG_W = 820;
+    const SVG_H = T + countries.length * RH + B;
+    const PW = SVG_W - L - R;
+    const Y0 = 1880, Y1 = 2025;
+
+    const xY = yr => L + (yr - Y0) / (Y1 - Y0) * PW;
+
+    const svg = document.createElementNS(ns, 'svg');
+    svg.setAttribute('viewBox', `0 0 ${SVG_W} ${SVG_H}`);
+    svg.style.cssText = 'width:100%;height:auto;display:block';
+
+    // Year grid + labels
+    [1900, 1920, 1940, 1960, 1980, 2000, 2020].forEach(y => {
+      const x = xY(y);
+      const line = document.createElementNS(ns, 'line');
+      line.setAttribute('x1', x); line.setAttribute('x2', x);
+      line.setAttribute('y1', T - 4); line.setAttribute('y2', T + countries.length * RH);
+      line.setAttribute('stroke', 'var(--color-rule)');
+      line.setAttribute('stroke-width', '0.8');
+      svg.appendChild(line);
+
+      const lbl = document.createElementNS(ns, 'text');
+      lbl.setAttribute('x', x); lbl.setAttribute('y', T - 8);
+      lbl.setAttribute('text-anchor', 'middle');
+      lbl.setAttribute('font-family', "'Be Vietnam Pro',sans-serif");
+      lbl.setAttribute('font-size', '8');
+      lbl.setAttribute('font-weight', '600');
+      lbl.setAttribute('fill', 'var(--color-ink-3)');
+      lbl.setAttribute('letter-spacing', '0.5');
+      lbl.textContent = y;
+      svg.appendChild(lbl);
+    });
+
+    // Rows
+    countries.forEach(([country, brands], ri) => {
+      const cy = T + ri * RH + RH / 2;
+
+      const bg = document.createElementNS(ns, 'rect');
+      bg.setAttribute('x', 0); bg.setAttribute('y', T + ri * RH);
+      bg.setAttribute('width', SVG_W); bg.setAttribute('height', RH);
+      bg.setAttribute('fill', 'var(--color-paper-3)');
+      bg.setAttribute('opacity', ri % 2 === 0 ? '0.55' : '0');
+      svg.appendChild(bg);
+
+      const lbl = document.createElementNS(ns, 'text');
+      lbl.setAttribute('x', L - 8); lbl.setAttribute('y', cy + 4);
+      lbl.setAttribute('text-anchor', 'end');
+      lbl.setAttribute('font-family', "'Be Vietnam Pro',sans-serif");
+      lbl.setAttribute('font-size', '10.5');
+      lbl.setAttribute('font-weight', '500');
+      lbl.setAttribute('fill', 'var(--color-ink-2)');
+      lbl.textContent = `${brands[0].flag} ${country}`;
+      svg.appendChild(lbl);
+
+      // Group brands by year for jitter
+      const byYear = {};
+      brands.forEach(b => {
+        if (!byYear[b.founded]) byYear[b.founded] = [];
+        byYear[b.founded].push(b);
+      });
+
+      Object.entries(byYear).forEach(([year, ys]) => {
+        ys.forEach((b, yi) => {
+          const cx = xY(parseInt(year));
+          const jitter = ys.length > 1 ? (yi - (ys.length - 1) / 2) * 13 : 0;
+
+          const c = document.createElementNS(ns, 'circle');
+          c.setAttribute('cx', cx);
+          c.setAttribute('cy', cy + jitter);
+          c.setAttribute('r', '7.5');
+          c.setAttribute('fill', b.color || 'var(--color-moto)');
+          c.setAttribute('opacity', '0.88');
+          c.style.cursor = 'pointer';
+          c.addEventListener('mousemove', e => {
+            showTip(e, `<b>${b.name}</b><span>${b.country} · ${b.founded}${b.group ? ' · ' + b.group : ''}</span>`);
+          });
+          c.addEventListener('mouseleave', hideTip);
+          svg.appendChild(c);
+        });
+      });
+    });
+
+    const motoGrid = document.getElementById('moto-grid');
+    motoGrid.classList.add('ins-moto-chart-mode');
+    motoGrid.innerHTML = '';
+    motoGrid.appendChild(svg);
+  }
+
+  // ── AUTÓNOMO GRID ──────────────────────────────────────────────
+  {
+    const autoGrid = document.getElementById('auto-grid');
+    const autoBrands = BRANDS
+      .filter(b => b.category === 'autonomous')
+      .sort((a, b) => a.founded - b.founded);
+
+    autoBrands.forEach(b => {
+      const initials = b.name.split(/\s+/).map(w => w[0]).join('').slice(0, 2).toUpperCase();
+      const tile = document.createElement('div');
+      tile.className = 'ins-auto-tile';
+      tile.innerHTML = `
+        <div class="ins-auto-dot" style="background:${b.color||'#888'}">${initials}</div>
+        <div class="ins-auto-name">${b.name}</div>
+        <div class="ins-auto-meta">
+          <span class="ins-auto-flag">${b.flag}</span>
+          <span class="ins-auto-year">${b.founded}</span>
+        </div>`;
+      tile.addEventListener('mousemove', e => {
+        const fuels = b.fuel.join(' · ');
+        showTip(e, `<b>${b.name}</b><span>${b.country} · ${b.founded} · ${fuels}</span>`);
+      });
+      tile.addEventListener('mouseleave', hideTip);
+      autoGrid.appendChild(tile);
+    });
+  }
+
+  </script>
+</body>
+</html>

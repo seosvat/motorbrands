@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Herramientas locales / configs de desarrollo
+.claude/
+.agents/
+.hallmark/
+skills-lock.json
+
+# Datos fuente internos
+Knowledge/
+
+# Páginas y docs internos
+admin.html
+PRODUCT.md
+roadmap.md

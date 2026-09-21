@@ -1,0 +1,396 @@
+{
+  "generatedAt": "2026-08-31T16:50:46.303Z",
+  "total": 181,
+  "completed": [
+    {
+      "id": "afeela",
+      "output": "afeela-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "baic",
+      "output": "baic-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "deepal",
+      "output": "deepal-auto.png",
+      "source": "Wikimedia: Deepal global logo.svg"
+    },
+    {
+      "id": "delorean",
+      "output": "delorean-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "denza",
+      "output": "denza-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "dfsk",
+      "output": "dfsk-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "dr",
+      "output": "dr-auto.png",
+      "source": "Cardog Icons: Landrover Icon Dark.svg"
+    },
+    {
+      "id": "ebro",
+      "output": "ebro-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "fang-cheng-bao",
+      "output": "fang-cheng-bao-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "gordon-murray",
+      "output": "gordon-murray-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "hongqi",
+      "output": "hongqi-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "jaecoo",
+      "output": "jaecoo-auto.png",
+      "source": "Wikimedia: Jaecoo wordmark.svg"
+    },
+    {
+      "id": "jmc",
+      "output": "jmc-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "kaiyi",
+      "output": "kaiyi-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "li-auto",
+      "output": "li-auto-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "lightyear",
+      "output": "lightyear-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "mg",
+      "output": "mg-auto.png",
+      "source": "Wikimedia: Mg logo.svg"
+    },
+    {
+      "id": "neta",
+      "output": "neta-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "pininfarina",
+      "output": "pininfarina-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "rimac",
+      "output": "rimac-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "ssc",
+      "output": "ssc-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "voyah",
+      "output": "voyah-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "wey",
+      "output": "wey-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "xiaomi-auto",
+      "output": "xiaomi-auto-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "yangwang",
+      "output": "yangwang-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "zeekr",
+      "output": "zeekr-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "zx-auto",
+      "output": "zx-auto-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "aptera",
+      "output": "aptera-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "proton",
+      "output": "proton-auto.png",
+      "source": "Wikimedia: PROTON logo 2003.jpg"
+    },
+    {
+      "id": "roewe",
+      "output": "roewe-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "gac",
+      "output": "gac-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "wuling",
+      "output": "wuling-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "ora",
+      "output": "ora-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "tank",
+      "output": "tank-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "hiphi",
+      "output": "hiphi-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "jetour",
+      "output": "jetour-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "aprilia",
+      "output": "aprilia-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "bajaj",
+      "output": "bajaj-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "benelli",
+      "output": "benelli-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "beta",
+      "output": "beta-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "bimota",
+      "output": "bimota-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "bmw-motorrad",
+      "output": "bmw-motorrad-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "cfmoto",
+      "output": "cfmoto-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "ducati",
+      "output": "ducati-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "energica",
+      "output": "energica-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "indian",
+      "output": "indian-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "ktm",
+      "output": "ktm-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "kymco",
+      "output": "kymco-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "livewire",
+      "output": "livewire-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "moto-guzzi",
+      "output": "moto-guzzi-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "niu",
+      "output": "niu-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "norton",
+      "output": "norton-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "piaggio",
+      "output": "piaggio-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "royal-enfield",
+      "output": "royal-enfield-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "sherco",
+      "output": "sherco-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "triumph",
+      "output": "triumph-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "tvs",
+      "output": "tvs-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "ural",
+      "output": "ural-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "yamaha",
+      "output": "yamaha-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "aurora",
+      "output": "aurora-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "autox",
+      "output": "autox-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "baidu-apollo",
+      "output": "baidu-apollo-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "comma-ai",
+      "output": "comma-ai-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "einride",
+      "output": "einride-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "gatik",
+      "output": "gatik-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "kodiak",
+      "output": "kodiak-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "may-mobility",
+      "output": "may-mobility-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "mobileye",
+      "output": "mobileye-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "momenta",
+      "output": "momenta-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "motional",
+      "output": "motional-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "nuro",
+      "output": "nuro-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "oxa",
+      "output": "oxa-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "pony-ai",
+      "output": "pony-ai-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "tusimple",
+      "output": "tusimple-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "waabi",
+      "output": "waabi-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "waymo",
+      "output": "waymo-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "weride",
+      "output": "weride-auto.png",
+      "source": "Generated transparent wordmark"
+    },
+    {
+      "id": "zoox",
+      "output": "zoox-auto.png",
+      "source": "Generated transparent wordmark"
+    }
+  ]
+}

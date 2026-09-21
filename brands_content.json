@@ -1,0 +1,408 @@
+[
+  {
+    "id": "livewire",
+    "tagline": "El silencio eléctrico que reescribe el rugido de Milwaukee",
+    "hq": "Milwaukee, Wisconsin, Estados Unidos",
+    "dissolved": null,
+    "models": [
+      "LiveWire One",
+      "S2 Del Mar",
+      "S2 Mulholland"
+    ],
+    "history": "LiveWire nació formalmente en 2021 como marca independiente dentro del ecosistema de Harley-Davidson, aunque sus raíces se remontan al Project LiveWire de 2014, una motocicleta conceptual eléctrica que la compañía llevó en gira por concesionarios de todo el mundo para pulsar la reacción del público. El entusiasmo generado convenció a los directivos de que el futuro eléctrico tenía cabida en el universo Harley.\n\nEl primer modelo de producción llegó en 2019 bajo el paraguas de Harley-Davidson, con un precio de lanzamiento en torno a 29.800 dólares en Estados Unidos. La moto ofrecía una aceleración de 0 a 97 km/h en 3 segundos y una autonomía urbana de hasta 235 km, datos que demostraban que la electrificación no era sinónimo de compromiso dinámico.\n\nEn 2021, Harley-Davidson escindió la marca LiveWire como empresa independiente con su propia identidad visual y estrategia de producto. Ese mismo año anunció una fusión con la compañía de adquisición de propósito especial AEA-Bridges Impact Corp (ABIC), que llevó a LiveWire a cotizar en la Bolsa de Nueva York bajo el ticker LVWR en enero de 2023, convirtiéndose en la primera marca de motocicletas eléctricas en debutar como empresa pública independiente.\n\nDesde entonces, LiveWire ha ampliado su gama con modelos más accesibles como la S2 Del Mar y la S2 Mulholland, pensados para un público urbano y joven. La S2 Del Mar, presentada en 2022, redujo el precio de acceso a la marca a unos 15.000 dólares, democratizando la propuesta eléctrica premium sin renunciar al ADN emocional de Milwaukee.",
+    "notable": [
+      "La LiveWire One alcanza los 97 km/h en exactamente 3 segundos, un registro comparable al de superbikes de gasolina de última generación y muy superior al del primer Harley-Davidson eléctrico que muchos fans esperaban",
+      "LiveWire cotiza en la Bolsa de Nueva York bajo el ticker LVWR desde enero de 2023, siendo la primera marca de motocicletas eléctricas en realizar un debut bursátil independiente mediante fusión con un SPAC",
+      "El sistema de carga CCS integrado en la LiveWire One permite pasar del 0 al 80% de carga en aproximadamente 40 minutos en estaciones de carga rápida de corriente continua de nivel 3"
+    ],
+    "segments": [
+      "electric",
+      "naked",
+      "sport"
+    ]
+  },
+  {
+    "id": "moto-guzzi",
+    "tagline": "El águila de Mandello que planea sobre un siglo de V-twins transversales",
+    "hq": "Mandello del Lario, Lecco, Italia",
+    "dissolved": null,
+    "models": [
+      "V7",
+      "V9 Bobber",
+      "V100 Mandello",
+      "California",
+      "Le Mans",
+      "Eldorado"
+    ],
+    "history": "Moto Guzzi fue fundada el 15 de marzo de 1921 en Mandello del Lario, a orillas del lago Como, por Carlo Guzzi, Giorgio Parodi y el piloto Giovanni Ravelli, quien falleció en un accidente de aviación antes de que la empresa arrancara. En homenaje a Ravelli, que había volado en la Primera Guerra Mundial, la marca adoptó el águila como emblema, símbolo que permanece intacto más de cien años después.\n\nDurante los años treinta y cincuenta, Moto Guzzi dominó el campeonato del mundo con modelos como la Dondolino y la Bicilindrica. En 1955 construyó la primera moto de competición del mundo probada en túnel de viento propio, una V8 de 500 cc que alcanzaba los 280 km/h; demasiado avanzada, fue retirada sin haber corrido una temporada completa. Ese mismo año la marca se retiró de la competición internacional.\n\nTras varias décadas de incertidumbre corporativa —propiedad de Alejandro De Tomaso desde 1973, luego absorbida por Aprilia en 2000—, el grupo Piaggio tomó el control en 2004 y estabilizó la producción en la histórica fábrica de Mandello del Lario, que sigue activa hoy. El motor V-twin transversal de cigüeñal longitudinal, invención exclusiva de Carlo Guzzi patentada en 1921, nunca fue abandonado.\n\nEn la actualidad, la V100 Mandello, presentada en 2022, representa la apuesta tecnológica más ambiciosa de la firma: radiadores activos con aletas que se abren o cierran según la temperatura y un chasis completamente nuevo que combina tradición y modernidad. La V7 y la V9 Bobber mantienen viva la llama del clasicismo mediterráneo en el segmento naked.",
+    "notable": [
+      "En 1955, Moto Guzzi fue la primera marca de motocicletas en construir y operar un túnel de viento propio para desarrollo aerodinámico, una instalación que aún puede visitarse en la fábrica de Mandello del Lario",
+      "El motor V-twin transversal con cigüeñal longitudinal, patentado por Carlo Guzzi en 1921, es un diseño exclusivo que ningún otro fabricante de producción en serie ha adoptado y que Moto Guzzi sigue utilizando más de un siglo después",
+      "El Museo Moto Guzzi en Mandello del Lario, inaugurado en 1954 y visible solo en visitas guiadas concertadas, alberga más de 150 motocicletas históricas incluyendo la legendaria V8 de competición de 1955"
+    ],
+    "segments": [
+      "naked",
+      "touring",
+      "cruiser",
+      "sport"
+    ]
+  },
+  {
+    "id": "mv-agusta",
+    "tagline": "Arte mecánico italiano destilado en cada centímetro cúbico de Varese",
+    "hq": "Varese, Lombardía, Italia",
+    "dissolved": null,
+    "models": [
+      "F4",
+      "Brutale",
+      "Superveloce",
+      "Turismo Veloce",
+      "Dragster",
+      "Rush"
+    ],
+    "history": "MV Agusta nació en 1945 cuando el conde Domenico Agusta, a la cabeza del conglomerado aeronáutico Agusta, decidió trasladar la pericia mecánica de la aviación al mundo de las motocicletas. La primera moto, la 98 cc Monoalbero, llegó ese mismo año, y en pocos años Varese se convirtió en el epicentro de la velocidad mundial.\n\nEntre 1952 y 1974, MV Agusta ganó 17 títulos mundiales consecutivos en la categoría reina de 500 cc, una racha sin precedentes en el motorsport de dos ruedas. Giacomo Agostini fue el piloto más laureado de esa era dorada, conquistando con la marca italiana ocho campeonatos del mundo en 500 cc. La rivalidad con Gilera, Honda y luego Yamaha marcó una época irrepetible del Gran Premio.\n\nTras la muerte del conde Domenico Agusta en 1971 y el declive de la división de competición, la empresa cerró en 1980. Fue resucitada en 1997 por el grupo Cagiva, que encargó al diseñador Massimo Tamburini —también responsable de la Ducati 916— la creación de la F4, presentada en 1999. La F4 Serie Oro, limitada a 300 unidades y considerada una de las motos más bellas jamás fabricadas, marcó el renacimiento definitivo de la marca.\n\nDespués de un polémico período bajo propiedad de Harley-Davidson (2008-2010) y sucesivos cambios accionariales, MV Agusta se consolidó en el segmento ultra-premium. La Superveloce, lanzada en 2020, recuperó la estética retro de los años sesenta con mecánica moderna, reafirmando que Varese fabrica esculturas que también corren.",
+    "notable": [
+      "Entre 1952 y 1974, MV Agusta ganó 17 Campeonatos del Mundo consecutivos en 500 cc, una hegemonía que ninguna otra marca ha igualado en la historia del motociclismo de competición",
+      "La F4 Serie Oro de 1999, diseñada por Massimo Tamburini (también autor de la Ducati 916), estaba limitada a 300 unidades numeradas y costaba el doble que una F4 estándar, siendo la primera moto de producción en superar los 30.000 euros",
+      "El escape cuádruple bajo la cola, firma visual de la F4 desde 1999, no es puramente estético: el diseño de cuatro tubos simétricos optimizaba la extracción de gases del motor de cuatro cilindros en línea y reducía el peso respecto a colectores convencionales"
+    ],
+    "segments": [
+      "superbike",
+      "naked",
+      "sport",
+      "touring"
+    ]
+  },
+  {
+    "id": "niu",
+    "tagline": "Movilidad urbana inteligente para las megalópolis del siglo veintiuno",
+    "hq": "Pekín, China",
+    "dissolved": null,
+    "models": [
+      "N-Series",
+      "MQi+ Sport",
+      "GT",
+      "UQi+",
+      "KQi3 Pro",
+      "RQi"
+    ],
+    "history": "NIU Technologies fue fundada en 2014 en Pekín por Yan Li, ex-directivo de Microsoft e Institutode Tecnología de Massachusetts, junto a un equipo de ingenieros y diseñadores con experiencia en tecnología de consumo. La empresa nació con la convicción de que el scooter eléctrico urbano no debía ser un producto de segunda categoría, sino un objeto conectado, premium y deseable.\n\nEl primer modelo, la N1, se lanzó en 2015 con financiación de crowdfunding que superó las expectativas en las primeras horas de campaña. Incorporaba batería de litio extraíble, conectividad 4G, GPS integrado y una aplicación móvil que mostraba en tiempo real el estado de la batería, ubicación y datos de conducción, características inéditas en el segmento de los ciclomotores eléctricos chinos.\n\nEn octubre de 2018, NIU Technologies salió a bolsa en el Nasdaq captando 45 millones de dólares en su oferta pública de venta, validando el modelo de negocio ante inversores occidentales. La empresa comenzó su expansión internacional, entrando en más de cincuenta países europeos y asiáticos con una red de distribuidores cuidadosamente seleccionada para mantener la imagen de marca.\n\nEn 2022, NIU superó el millón de unidades vendidas en un solo ejercicio fiscal, consolidándose como el mayor fabricante mundial de scooters eléctricos conectados. Su gama KQi de patinetes eléctricos amplió el negocio hacia la micrormovilidad, mientras modelos como el RQi apuntan hacia segmentos de mayor cilindrada equivalente con autonomías superiores a 150 kilómetros.",
+    "notable": [
+      "Cada scooter NIU incorpora conectividad 4G y GPS de fábrica vinculados a una aplicación móvil que registra rutas, monitoriza la batería en tiempo real y activa alarmas antirrobo por geovallado, una funcionalidad disponible desde el primer modelo N1 de 2015",
+      "NIU Technologies salió a bolsa en el Nasdaq en octubre de 2018 captando 45 millones de dólares, convirtiéndose en la primera empresa china de scooters eléctricos en cotizar en un mercado bursátil estadounidense",
+      "Las baterías NIU pueden extraerse del scooter en segundos y cargarse en cualquier enchufe doméstico estándar, una decisión de diseño deliberada para usuarios de pisos sin garaje, que representa el principal caso de uso en las megalópolis asiáticas"
+    ],
+    "segments": [
+      "electric",
+      "scooter",
+      "city"
+    ]
+  },
+  {
+    "id": "norton",
+    "tagline": "La leyenda británica que resurgió de sus cenizas para volver a rugir",
+    "hq": "Donington Park, Leicestershire, Reino Unido",
+    "dissolved": null,
+    "models": [
+      "Commando 961",
+      "V4 CR",
+      "V4 RR",
+      "Dominator",
+      "Atlas Nomad"
+    ],
+    "history": "James Lansdowne Norton fundó la empresa en Birmingham en 1898 fabricando piezas para otras marcas antes de lanzar su primera motocicleta completa en 1902. La Manx Norton, desarrollada en los años treinta y perfeccionada durante décadas, se convirtió en la moto de carreras más exitosa de la historia del Tourist Trophy de la Isla de Man, con victorias que se prolongaron hasta los años sesenta con pilotos como Mike Hailwood.\n\nDespués de décadas de declive industrial, cambios de propietario y cierres, la marca fue adquirida en 2008 por Stuart Garner, quien prometió un renacimiento desde una nueva fábrica en Donington Park. El Commando 961 llegó en 2010 como primera moto del relanzamiento, con un motor bicilíndrico paralelo de 961 cc de ingeniería británica, y generó entusiasmo genuino entre coleccionistas.\n\nSin embargo, en 2020 la empresa volvió a colapsar envuelta en un escándalo de fraude: Garner fue acusado de malversar fondos de planes de pensiones de empleados. En abril de 2020, la india TVS Motor Company adquirió los activos de Norton por 16 millones de libras esterlinas, inyectando capital, ingeniería y disciplina de producción asiática en la marca británica más venerada.\n\nBajo TVS, Norton inauguró un nuevo centro de ingeniería y desarrollo en Solihull y presentó en 2022 la V4 CR, con motor de cuatro cilindros en V a 72 grados de 1.200 cc desarrollado íntegramente en el Reino Unido. La marca volvió al Tourist Trophy en 2023, cerrando un círculo histórico de más de cien años.",
+    "notable": [
+      "TVS Motor Company (India) adquirió Norton en abril de 2020 por 16 millones de libras esterlinas tras el colapso provocado por el empresario Stuart Garner, quien fue posteriormente investigado por malversación de fondos de pensiones de trabajadores de la empresa",
+      "La Norton Manx ganó el Tourist Trophy de la Isla de Man en 1961 con Mike Hailwood pilotando, convirtiéndose en la moto de carreras privada más exitosa de la historia de la competición en el circuito de carretera más mítico del mundo",
+      "El motor V4 de la Norton V4 CR, un cuatro cilindros en V a 72 grados de 1.200 cc, fue diseñado y desarrollado íntegramente en el Reino Unido, siendo el primer motor de gran cilindrada de Norton fabricado en el país desde los años ochenta"
+    ],
+    "segments": [
+      "naked",
+      "sport",
+      "superbike",
+      "cruiser"
+    ]
+  },
+  {
+    "id": "piaggio",
+    "tagline": "El ingenio italiano que inventó la movilidad urbana del siglo veinte",
+    "hq": "Pontedera, Toscana, Italia",
+    "dissolved": null,
+    "models": [
+      "MP3",
+      "Beverly 400",
+      "Liberty 125",
+      "Medley",
+      "X10",
+      "Piaggio 1"
+    ],
+    "history": "Rinaldo Piaggio fundó la empresa en Génova en 1884 como fabricante de bienes de lujo para barcos, evolucionando hacia la aeronáutica y la fabricación de trenes durante las décadas siguientes. Al final de la Segunda Guerra Mundial, con las fábricas bombardeadas y la industria italiana en ruinas, el hijo de Rinaldo, Enrico Piaggio, tomó la decisión de pivotar radicalmente hacia un vehículo de transporte personal asequible.\n\nEl resultado fue la Vespa, diseñada en 1945 por el ingeniero aeronáutico Corradino D'Ascanio y lanzada en 1946. La Vespa transformó la movilidad italiana de posguerra y convirtió la fábrica de Pontedera —que sigue activa hoy— en el centro neurálgico del grupo. Bajo el paraguas de Piaggio nacieron o fueron absorbidas marcas como Gilera (1969), Derbi (2001), Aprilia (2004) y Moto Guzzi (2004).\n\nEn 2006, Piaggio lanzó el MP3, el primer scooter de tres ruedas del mundo que podía conducirse con carné de turismo en la mayoría de países europeos gracias a su innovador sistema de suspensión delantera inclinable que mantiene la sensación dinámica de una moto de dos ruedas. El MP3 abrió un segmento de mercado completamente nuevo.\n\nHoy Piaggio Group es el mayor fabricante europeo de vehículos de dos y tres ruedas, con plantas en Italia, India y Vietnam y una cartera que abarca desde el utilitario Piaggio 1 eléctrico hasta las motocicletas de competición de Aprilia. La marca propia Piaggio se centra en el segmento de scooters urbanos y comerciales.",
+    "notable": [
+      "Piaggio Group es el mayor fabricante europeo de motocicletas y scooters, controlando cuatro marcas históricas de dos ruedas: Vespa, Aprilia, Moto Guzzi y Gilera, además de la propia marca Piaggio con escúteres y vehículos comerciales de tres ruedas",
+      "El MP3, lanzado en 2006, fue el primer scooter de tres ruedas en recibir homologación para ser conducido con carné de automóvil en varios países europeos, inaugurando el segmento de los triciclos inclinables de producción en serie",
+      "La fábrica histórica de Pontedera, activa ininterrumpidamente desde 1946, ha producido más de 19 millones de unidades Vespa y alberga el Museo Piaggio, que cuenta con más de 270 vehículos históricos de todas las marcas del grupo"
+    ],
+    "segments": [
+      "scooter",
+      "city"
+    ]
+  },
+  {
+    "id": "royal-enfield",
+    "tagline": "La moto más antigua en producción continua, forjada en India desde 1901",
+    "hq": "Chennai, Tamil Nadu, India",
+    "dissolved": null,
+    "models": [
+      "Classic 350",
+      "Meteor 350",
+      "Himalayan",
+      "Interceptor 650",
+      "Continental GT 650",
+      "Scram 411"
+    ],
+    "history": "Royal Enfield fue fundada en Redditch, Inglaterra, en 1901, cuando la Enfield Cycle Company comenzó a fabricar motocicletas con motor De Dion. El modelo Bullet, presentado en 1932, se convirtió en el eje de la empresa: robusto, confiable y fácilmente mantenible, fue adoptado por el ejército británico durante la Segunda Guerra Mundial y exportado a la India a partir de 1949.\n\nEn 1955, Madras Motors firmó un acuerdo de licencia para fabricar la Bullet 350 en India, estableciendo la planta de Chennai que sigue produciendo motocicletas hoy. La empresa matriz británica cerró definitivamente en 1970, pero la filial india continuó bajo el nombre de Enfield India, luego Royal Enfield, convirtiéndose en la única depositaria de un linaje que se remonta a más de un siglo.\n\nBajo el liderazgo de Siddhartha Lal, quien tomó las riendas en 2000 cuando la empresa estaba al borde de la quiebra, Royal Enfield vivió una transformación radical. La modernización de la Bullet, el lanzamiento de la Thunderbird y, decisivamente, la llegada de la Himalayan en 2016 —primera moto de aventura diseñada íntegramente en India— marcaron el punto de inflexión hacia los mercados globales.\n\nEn 2017, las gemelas 650 (Interceptor y Continental GT) demostraron que Royal Enfield podía competir en calidad con marcas europeas. En 2022 la empresa vendió más de 800.000 unidades, siendo la marca de motos medianas más vendida del mundo, con presencia en más de 60 países y un nuevo centro de I+D en Leicester, Inglaterra.",
+    "notable": [
+      "El Bullet 350 ha estado en producción continua desde 1932, convirtiéndolo en el vehículo motorizado en producción ininterrumpida más antiguo del mundo, outlastando incluso a la Volkswagen Beetle y al Land Rover Defender en sus formatos originales",
+      "La empresa matriz británica Enfield Cycle Company cerró en 1970, pero la filial india que había comenzado a fabricar motos bajo licencia en 1955 sobrevivió y heredó el nombre completo Royal Enfield, invirtiendo la relación habitual entre metrópolis y colonia",
+      "Royal Enfield vende más motocicletas de 250-750 cc que cualquier otra marca del mundo, superando en ese segmento específico a Honda, Yamaha y Kawasaki, según datos de ventas globales de 2022"
+    ],
+    "segments": [
+      "naked",
+      "adventure",
+      "touring",
+      "cruiser",
+      "offroad"
+    ]
+  },
+  {
+    "id": "sherco",
+    "tagline": "Campeones de trials donde la física parece rendirse ante el piloto",
+    "hq": "Perpignan, Francia / Barcelona, España",
+    "dissolved": null,
+    "models": [
+      "300 SE Factory",
+      "250 SEF-R",
+      "TY 125",
+      "300 SEF Factory",
+      "250 SE",
+      "125 SE"
+    ],
+    "history": "Sherco fue fundada en 1998 en Perpignan, Francia, por Marc Teissier, tras adquirir los activos técnicos y el equipo de desarrollo de Scorpa, marca española de trials con sede en Barcelona que había acumulado un valioso conocimiento en mecánica de competición todoterreno. Desde su nacimiento, Sherco eligió especializarse en los dos deportes de dos ruedas más exigentes técnicamente: el trial y el enduro.\n\nLa producción se estableció en Barcelona, aprovechando el ecosistema industrial catalán y la tradición motorista de la región. La empresa adoptó una filosofía de moto de competición accesible: desarrollar en el campeonato, aplicar directamente a la producción y ofrecer versiones réplica que los aficionados podían comprar en el concesionario oficial. Esta transferencia directa entre competición y producto de calle marcó el ADN de la marca.\n\nEn el EnduroGP, el campeonato del mundo de enduro, Sherco se convirtió en referencia ineludible. El piloto galés Billy Bolt logró un hito histórico en 2021 y 2022 ganando el Hard Enduro World Championship con la Sherco 300 SEF Factory, una moto de competición derivada directamente del modelo de calle y que requería mínimas modificaciones para las pruebas más extremas del calendario.\n\nHoy Sherco exporta sus motocicletas a más de cuarenta países, con una red de asistencia técnica orientada al piloto de competición amateur. El desarrollo se realiza en los Pirineos catalano-franceses, donde las condiciones de montaña permiten testar las motos en el entorno más exigente posible antes de homologarlas para el campeonato.",
+    "notable": [
+      "Sherco fue fundada en 1998 tras adquirir los activos técnicos de Scorpa, marca española de trials que había desarrollado durante años motores de dos tiempos para competición, dando a la nueva empresa francesa-española una base tecnológica ya probada en campeonato",
+      "Billy Bolt ganó el Hard Enduro World Championship en 2021 y 2022 pilotando una Sherco 300 SEF Factory, convirtiendo a la marca perpinyanesa en el referente de la modalidad más extrema del motociclismo todoterreno",
+      "Todo el desarrollo de las motos de competición de Sherco se realiza en los Pirineos catalano-franceses, donde terrenos de montaña extremos a pocos kilómetros de la fábrica permiten someter los prototipos a condiciones equivalentes a las de las pruebas del campeonato"
+    ],
+    "segments": [
+      "enduro",
+      "offroad"
+    ]
+  },
+  {
+    "id": "suzuki-moto",
+    "tagline": "De los telares de Hamamatsu a las cumbres mundiales de la velocidad",
+    "hq": "Hamamatsu, Shizuoka, Japón",
+    "dissolved": null,
+    "models": [
+      "GSX-R1000",
+      "Hayabusa",
+      "V-Strom 1050",
+      "Katana",
+      "GSX-8S",
+      "SV650"
+    ],
+    "history": "Michio Suzuki fundó la empresa en Hamamatsu en 1909 como fabricante de telares textiles. Después de la Segunda Guerra Mundial, con el negocio textil en crisis, la compañía diversificó hacia los vehículos de motor, lanzando en 1952 la Power Free, una bicicleta con motor auxiliar de 36 cc que supuso el primer paso en la industria de la motocicleta.\n\nEn 1976, Barry Sheene conquistó el Campeonato del Mundo de 500 cc para Suzuki pilotando la RG500, una moto de cuatro cilindros en cuadrado de dos tiempos que representaba lo más avanzado de la ingeniería de competición de la época. El título validó a Suzuki como potencia mundial del motociclismo, y la rivalidad con Yamaha y Kenny Roberts definió una de las eras más emocionantes del gran premio.\n\nEn 1985, la GSX-R750 revolucionó el mercado de las sportbikes al ser la primera moto de producción en ofrecer la relación peso-potencia de las máquinas de competición: menos de 180 kg y más de 100 CV. Cuatro años después, en 1999, la Hayabusa (nombre del halcón peregrino) pulverizó el récord de velocidad en producción con 312 km/h cronometrados, obligando al sector a acordar voluntariamente una limitación a 299 km/h.\n\nHoy Suzuki mantiene una gama diversa con la SV650, referente en el segmento de motos asequibles y formativas, la V-Strom como buque insignia adventure-touring y la Katana, resucitada en 2019 como homenaje al diseño de Hans Muth de 1980. Aunque Suzuki anunció en 2022 su retirada de MotoGP, la marca sigue siendo sinónimo de fiabilidad y valor.",
+    "notable": [
+      "La Hayabusa de 1999 alcanzó los 312 km/h en pruebas certificadas, siendo la motocicleta de producción más rápida del mundo hasta que los fabricantes japoneses y europeos acordaron voluntariamente limitar las velocidades máximas a 299 km/h para evitar legislación restrictiva",
+      "La GSX-R750 de 1985 fue la primera motocicleta de producción en alcanzar la relación peso-potencia de las motos de Gran Premio, pesando menos de 180 kg con más de 100 CV, y es considerada la fundadora del moderno segmento de las superbikes deportivas",
+      "Barry Sheene ganó el Campeonato del Mundo de 500 cc en 1976 y 1977 con Suzuki pilotando la RG500 de cuatro cilindros en cuadrado, convirtiéndose en el primer campeón del mundo de su marca y uno de los pilotos más carismáticos de la historia del motociclismo"
+    ],
+    "segments": [
+      "superbike",
+      "sport",
+      "adventure",
+      "naked"
+    ]
+  },
+  {
+    "id": "triumph",
+    "tagline": "Tradición británica que nunca cedió ante el paso del tiempo ni las modas",
+    "hq": "Hinckley, Leicestershire, Reino Unido",
+    "dissolved": null,
+    "models": [
+      "Bonneville T120",
+      "Tiger 900",
+      "Rocket 3",
+      "Speed Triple 1200 RS",
+      "Trident 660",
+      "Tiger Sport 660"
+    ],
+    "history": "Triumph fue fundada en 1902 en Coventry por el empresario alemán Siegfried Bettmann, quien ya había establecido una empresa de exportación de bicicletas con el nombre Triumph en 1886. Las primeras motocicletas Triumph conquistaron rápidamente el mercado británico y comenzaron a destacar en el deporte, estableciendo récords de velocidad en Brooklands desde los primeros años de la marca.\n\nDurante la Segunda Guerra Mundial, Triumph suministró miles de motocicletas al ejército británico. En 1959, el modelo Speed Twin ya había evolucionado hasta la legendaria Bonneville T120, nombrada en honor al récord de velocidad establecido por Johnny Allen en las salinas de Bonneville, Utah, con una Triumph. La Bonneville se convirtió en símbolo de toda una generación y aparece en la película 'El salvaje' de 1953 con Marlon Brando.\n\nConflictos laborales y errores de gestión llevaron al cierre de la empresa original en 1983. El empresario de construcción John Bloor adquirió los derechos de la marca y en 1991 abrió una nueva fábrica en Hinckley con una gama completamente nueva diseñada desde cero. La nueva Triumph apostó por motores modulares de tres y cuatro cilindros que compartían piezas para reducir costes de producción.\n\nHoy Triumph es la marca de motocicletas británicas más importante, con el Rocket 3 como hito técnico: su motor de 2.458 cc de tres cilindros en línea es el mayor en producción serie en una motocicleta. La Tiger 900 y la Speed Triple 1200 RS compiten con las mejores europeas, mientras la Bonneville T120 mantiene viva la llama del clasicismo anglosajón.",
+    "notable": [
+      "El Rocket 3 monta el motor en producción serie más grande del mundo en una motocicleta: un tres cilindros en línea de 2.458 cc que genera 221 Nm de par máximo a solo 4.000 rpm, más que muchos camiones ligeros",
+      "En la película 'La Gran Evasión' (1963), Steve McQueen utilizó una Triumph TR6 Trophy camuflada con insignias alemanas para la legendaria secuencia de salto sobre vallas, ya que las BMW de la época no podían realizar el salto con seguridad",
+      "La nueva Triumph fue fundada por John Bloor en 1984 y comenzó a producir en Hinckley en 1991, pero Bloor mantuvo en secreto durante años la existencia del proyecto de resurrección mientras desarrollaba en silencio la nueva gama de motocicletas"
+    ],
+    "segments": [
+      "naked",
+      "adventure",
+      "touring",
+      "cruiser",
+      "sport"
+    ]
+  },
+  {
+    "id": "tvs",
+    "tagline": "El gigante indio que forjó velocidad y tecnología bajo el sol de Tamil Nadu",
+    "hq": "Hosur, Tamil Nadu, India",
+    "dissolved": null,
+    "models": [
+      "Apache RR 310",
+      "Apache RTR 200 4V",
+      "Jupiter 125",
+      "Ntorq 125",
+      "Ronin",
+      "iQube Electric"
+    ],
+    "history": "El Grupo TVS fue fundado en 1911 por T.V. Sundaram Iyengar como empresa de transporte público en Madurai, evolucionando hacia la distribución de automóviles y componentes. TVS Motor Company como fabricante de dos ruedas arrancó en 1978 en Hosur, Tamil Nadu, con una línea de producción de ciclomotores que rápidamente se adaptó a las necesidades del mercado indio de transporte personal.\n\nDurante los años ochenta y noventa, TVS creció como proveedor de motocicletas asequibles y scooters para el mercado masivo indio. El modelo Victor y posteriormente el Apache establecieron la reputación de la marca en segmentos de mayor rendimiento. La familia Apache, especialmente la RTR 200 4V con válvulas de carburación variable, demostró que la ingeniería india podía competir en prestaciones con marcas japonesas en el mercado doméstico.\n\nEn 2013, TVS Motor Company y BMW Motorrad firmaron un acuerdo de colaboración que resultó en el desarrollo conjunto del motor monocilíndrico de 313 cc de refrigeración líquida. Este propulsor impulsa tanto la TVS Apache RR 310 como la BMW G 310 R y G 310 GS, siendo uno de los casos más exitosos de co-desarrollo entre una marca asiática emergente y una europea consolidada.\n\nEn el ejercicio fiscal 2022-23, TVS superó los 4 millones de unidades vendidas y adquirió Norton Motorcycles en 2020, accediendo al segmento premium internacional. El iQube Electric, presentado en 2020, posiciona a TVS en la transición eléctrica del mercado indio, el mayor mercado de dos ruedas del mundo.",
+    "notable": [
+      "TVS Motor Company firmó en 2013 un acuerdo de co-desarrollo con BMW Motorrad que produjo el motor monocilíndrico de 313 cc que impulsa tanto la TVS Apache RR 310 como la BMW G 310 R, uno de los proyectos de ingeniería compartida más exitosos entre una marca india y una alemana",
+      "El Grupo TVS fue fundado en 1911 por T.V. Sundaram Iyengar, haciendo de TVS Motor Company una de las corporaciones industriales más antiguas de la India, con más de un siglo de historia empresarial antes de fabricar su primera motocicleta en 1978",
+      "En 2020, TVS Motor Company adquirió Norton Motorcycles del Reino Unido por 16 millones de libras esterlinas, convirtiéndose simultáneamente en el tercer mayor fabricante indio de dos ruedas y propietario de una de las marcas más míticas del motociclismo británico"
+    ],
+    "segments": [
+      "sport",
+      "naked",
+      "scooter",
+      "city",
+      "electric"
+    ]
+  },
+  {
+    "id": "ural",
+    "tagline": "Tres ruedas y alma soviética para aventuras sin mapas ni pavimento",
+    "hq": "Irbit, Sverdlovsk, Rusia",
+    "dissolved": null,
+    "models": [
+      "Gear-Up",
+      "CT",
+      "M70",
+      "Tourist"
+    ],
+    "history": "La historia de Ural comienza con una necesidad militar urgente: en 1940, la Unión Soviética adquirió a través de intermediarios suecos los planos del BMW R71, la motocicleta con sidecar estándar del ejército alemán. En apenas un año, los ingenieros soviéticos reprodujeron el diseño y establecieron una fábrica en Moscú bajo el nombre IMZ (Irbit Motorcycle Works) para abastecer al Ejército Rojo.\n\nCuando la Wehrmacht avanzó hacia Moscú en el otoño de 1941, toda la maquinaria, planos y personal de la fábrica fueron evacuados en diecisiete días en tren hacia Irbit, una ciudad en los Urales a más de dos mil kilómetros al este. La producción se reanudó en Irbit en condiciones de extrema precariedad durante el invierno siberiano, y más de 9.000 unidades llegaron al frente antes del final de la guerra.\n\nCon el fin de la Guerra Fría, la demanda militar colapsó. Irbit Motorcycle Works se reconvirtió hacia el mercado civil, pero la transición fue traumática y la empresa estuvo al borde del cierre varias veces durante los años noventa. La salvación llegó de un inversor estadounidense de origen letón, Ilmars Petersons, que adquirió el control y reorientó el producto hacia el mercado occidental de aficionados a las motos retro.\n\nHoy Ural produce pocas unidades al año, cada una personalizable según las preferencias del comprador. El modelo Gear-Up incorpora tracción en dos ruedas —la trasera y la del sidecar— mediante una caja de transferencia, siendo una singularidad técnica única en el mundo de los vehículos de motor civiles. Su estética atemporal y su mecanicidad deliberada han encontrado un nicho apasionado en Norteamérica y Europa.",
+    "notable": [
+      "La fábrica de Ural fue trasladada desde Moscú a Irbit (Siberia) en solo 17 días durante el otoño de 1941, evacuando toda la maquinaria en tren mientras el frente alemán avanzaba, para garantizar la continuidad de producción de motocicletas para el Ejército Rojo",
+      "El primer diseño de Ural fue una copia del BMW R71 cuyos planos Alemania vendió a la URSS en 1940 a través de intermediarios suecos antes del inicio de la Operación Barbarroja, una de las ironías históricas más curiosas de la industria del motor",
+      "El modelo Gear-Up ofrece tracción a dos ruedas —la trasera de la moto y la del sidecar— mediante una caja de transferencia mecánica, siendo uno de los únicos vehículos de motor civiles de producción en serie del mundo con tracción lateral"
+    ],
+    "segments": [
+      "adventure",
+      "touring"
+    ]
+  },
+  {
+    "id": "vespa",
+    "tagline": "La avispa italiana que zumbó por las carreteras del mundo desde 1946",
+    "hq": "Pontedera, Toscana, Italia",
+    "dissolved": null,
+    "models": [
+      "GTS 300",
+      "Primavera 150",
+      "Sprint",
+      "Elettrica",
+      "946",
+      "GTS SuperSport"
+    ],
+    "history": "La Vespa nació de un encargo imposible: Enrico Piaggio, con las fábricas devastadas por los bombardeos aliados, necesitaba en 1945 un vehículo de transporte personal que pudiera fabricarse con los medios disponibles. Encargó el diseño al ingeniero aeronáutico Corradino D'Ascanio, quien odiaba las motocicletas tradicionales y diseñó algo radicalmente distinto: un vehículo con chasis monocasco de acero, sin cadena expuesta, con el motor integrado en la rueda trasera y amplia protección para el conductor.\n\nEnrico Piaggio vio el prototipo en 1946 y exclamó 'Sembra una vespa!' ('¡Parece una avispa!'). El nombre quedó fijado para siempre. El primer modelo, la Vespa 98 de 1946, pesaba solo 58 kg y costaba el equivalente a medio salario mensual obrero, democratizando el transporte motorizado en la Italia de posguerra cuando la inflación había destruido los ahorros de millones de familias.\n\nDurante los años cincuenta y sesenta, la Vespa se convirtió en símbolo cultural global. Su aparición junto a Audrey Hepburn y Gregory Peck en 'Vacaciones en Roma' (1953) la convirtió en icono cinematográfico, y la subcultura Mod británica de los años sesenta la adoptó como bandera generacional frente al automóvil burgués. Más de 100 películas y series la han utilizado como elemento narrativo desde entonces.\n\nHoy la gama Vespa abarca desde la Primavera 125 hasta la GTS 300 HPE, con la Elettrica representando el futuro eléctrico de la marca. La 946, producción limitada anual que rinde homenaje al prototipo de 1946, demuestra que Vespa puede coexistir como objeto de lujo y como vehículo de transporte cotidiano con 19 millones de unidades producidas.",
+    "notable": [
+      "La Vespa fue diseñada en 1945 por el ingeniero aeronáutico Corradino D'Ascanio, quien detestaba las motocicletas convencionales; al no tener prejuicios del sector, inventó el concepto moderno del scooter: chasis monocasco, motor en rueda trasera sin cadena expuesta y protección delantera",
+      "Más de 19 millones de Vespas han sido producidas desde 1946 en la misma fábrica de Pontedera, y el modelo aparece en más de 100 producciones cinematográficas, siendo 'Vacaciones en Roma' (1953) con Audrey Hepburn y Gregory Peck la aparición más icónica",
+      "La Vespa 98 de 1946 pesaba solo 58 kg y costaba el equivalente a medio salario mensual de un trabajador industrial italiano, haciendo posible que una familia de clase trabajadora accediera por primera vez a un vehículo motorizado en la Europa de posguerra"
+    ],
+    "segments": [
+      "scooter",
+      "city",
+      "electric"
+    ]
+  },
+  {
+    "id": "yamaha",
+    "tagline": "Afinando la mecánica con la precisión de un instrumento musical japonés",
+    "hq": "Iwata, Shizuoka, Japón",
+    "dissolved": null,
+    "models": [
+      "MT-09",
+      "YZF-R1",
+      "Ténéré 700",
+      "XMAX 300",
+      "Tracer 9 GT",
+      "XSR900"
+    ],
+    "history": "Yamaha Corporation nació en 1887 como fabricante de órganos y pianos. En 1955, el presidente Genichi Kawakami decidió diversificar la empresa hacia la fabricación de motocicletas, fundando Yamaha Motor Company como entidad separada. El primer modelo, la YA-1 de 125 cc, ganó la carrera de Asama Highlands en su año de debut, sentando el precedente competitivo que definiría a la marca.\n\nDurante los años sesenta y setenta, Yamaha dominó la ingeniería de dos tiempos de competición. El piloto Phil Read conquistó el Mundial de 250 cc en 1964 y 1965 con Yamaha, y posteriormente la marca construyó los motores de dos tiempos más sofisticados de la historia en la categoría de 500 cc. La rivalidad con Suzuki y Kenny Roberts en los años setenta elevó el Gran Premio a su cúspide de emoción técnica.\n\nEn 1998, la YZF-R1 redefinió el mercado de las superbikes de producción: tecnología de chasis Deltabox derivada directamente de la competición, motor de 998 cc con una distribución de masas revolucionaria y un diseño que anticipó una década de estética deportiva. En 2004, Valentino Rossi conquistó el Mundial de MotoGP para Yamaha tras haber dejado Honda, en lo que muchos consideran el mayor golpe de imagen en la historia del motociclismo moderno.\n\nHoy la gama MT, encabezada por la MT-09 con motor de tres cilindros CP3, representa la faceta más oscura y visceral de la marca bajo el lema 'Dark Side of Japan'. La Ténéré 700, lanzada en 2019, rescató el espíritu del París-Dakar de los años ochenta en formato accesible y conquistó el segmento de las trail medianas a escala mundial.",
+    "notable": [
+      "Yamaha Motor Company es una empresa separada de Yamaha Corporation (fabricante de instrumentos musicales), aunque comparten el mismo símbolo del diapasón; ambas empresas emergieron del mismo conglomerado fundado en 1887 por Torakusu Yamaha",
+      "Valentino Rossi ganó el Campeonato del Mundo de MotoGP en 2004 con Yamaha solo un año después de abandonar Honda (con quien había ganado tres títulos consecutivos), lo que la prensa especializada consideró la mayor demostración de talento individual sobre equipamiento en la historia de la categoría reina",
+      "La YZF-R1 de 1998 introdujo por primera vez en una superbike de producción el concepto de 'diseño de paquete' con centralización de masas extrema, con el motor desplazado hacia adelante y el depósito bajo el asiento, una arquitectura derivada directamente del prototipo de competición YZR500"
+    ],
+    "segments": [
+      "naked",
+      "superbike",
+      "adventure",
+      "sport",
+      "scooter",
+      "touring"
+    ]
+  },
+  {
+    "id": "zero-motorcycles",
+    "tagline": "Pioneros silenciosos de la revolución eléctrica sobre dos ruedas desde California",
+    "hq": "Santa Cruz, California, Estados Unidos",
+    "dissolved": null,
+    "models": [
+      "SR/F",
+      "SR/S",
+      "FXE",
+      "DSR/X",
+      "S",
+      "XE"
+    ],
+    "history": "Zero Motorcycles fue fundada en 2006 en Santa Cruz, California, por Neal Saiki, ingeniero con experiencia en la NASA que había desarrollado sistemas de propulsión para aplicaciones aeroespaciales. Saiki aplicó principios de ingeniería aeroespacial al diseño del sistema de propulsión eléctrica, concibiendo desde el principio un motor sin escobillas y una batería modular desarrollados íntegramente en casa para controlar toda la cadena tecnológica.\n\nLa primera moto de producción, la Zero X para uso offroad, llegó en 2008, cuando el mercado de motos eléctricas era prácticamente inexistente y el propio concepto generaba escepticismo en el sector. Mediante rondas sucesivas de capital riesgo, Zero fue refinando su tecnología de batería Z-Force y su motor Z-Force Power Pack hasta alcanzar autonomías y prestaciones que comenzaron a resultar competitivas con los modelos de combustión de cilindrada equivalente.\n\nEn 2019, la SR/F marcó un salto generacional: el primer modelo de Zero en ofrecer carga rápida de nivel 3 de hasta 6 kW, permitiendo alcanzar el 95% de carga en 60 minutos en estaciones compatibles. La moto también incorporó el sistema operativo Cypher III con actualización over-the-air de firmware, trasladando al mundo de las motos el modelo de actualización permanente de los smartphones.\n\nEn 2022, el DSR/X amplió la propuesta de Zero al segmento adventure con doble propósito, demostrando que la electrificación no estaba limitada al entorno urbano. Zero ha influido decisivamente en el mercado: varios fabricantes europeos han adoptado sus paquetes de batería en motos de marca propia, validando su liderazgo tecnológico más allá de sus propias ventas.",
+    "notable": [
+      "Zero Motorcycles fue fundada en 2006 por Neal Saiki, ex-ingeniero de la NASA, quien aplicó metodologías de ingeniería aeroespacial al diseño del sistema de propulsión eléctrica y optó desde el primer día por desarrollar motor y batería internamente en lugar de comprar componentes a terceros",
+      "La SR/F, lanzada en 2019, fue la primera motocicleta eléctrica de producción en ofrecer carga rápida de corriente continua de nivel 3 con hasta 6 kW de potencia, permitiendo recargar del 0 al 95% en 60 minutos en estaciones compatibles",
+      "Varios fabricantes europeos incluyendo Energica y algunas marcas menores han utilizado o licenciado componentes de batería de Zero para sus propios modelos, convirtiendo a la empresa californiana en proveedor tecnológico del sector además de marca propia"
+    ],
+    "segments": [
+      "electric",
+      "naked",
+      "sport",
+      "adventure"
+    ]
+  },
+  {
+    "id": "zontes",
+    "tagline": "Ingeniería china que desafía prejuicios con cada curva y cada cifra técnica",
+    "hq": "Guangzhou, Guangdong, China",
+    "dissolved": null,
+    "models": [
+      "350T",
+      "350R",
+      "855",
+      "310X",
+      "125U",
+      "350X"
+    ],
+    "history": "Zontes fue fundada alrededor de 2010 en Guangzhou, capital de la provincia de Guangdong y corazón industrial del sur de China, con un objetivo explícito de diferenciación: fabricar motocicletas de calidad premium que pudieran competir con las marcas japonesas y europeas en especificaciones técnicas, no solo en precio. La empresa optó desde el principio por desarrollar sus propios motores en lugar de depender de propulsores licenciados.\n\nLos primeros modelos de 125 y 250 cc establecieron la reputación de Zontes como fabricante dispuesto a ofrecer equipamiento de gama superior —pantallas TFT a color, iluminación LED completa, control de tracción— en segmentos de precio donde otros fabricantes chinos instalaban instrumentación analógica básica. La apuesta por la tecnología de interfaz como elemento diferenciador resultó acertada en mercados donde los compradores jóvenes valoran la conectividad.\n\nEn 2019, la 350T se convirtió en el modelo que consiguió ventas significativas en mercados europeos exigentes como Italia y España, quebrando por primera vez el prejuicio de que las marcas chinas no podían competir en calidad percibida con las japonesas. La moto ofrecía un monocilíndrico de 350 cc con inyección electrónica, pantalla TFT de 5 pulgadas y modos de conducción por un precio sustancialmente inferior al de rivales japonesas equivalentes.\n\nEn 2022, Zontes presentó el motor de 855 cc bicilíndrico paralelo que equipa los modelos 855 Adventure, 855 R y variantes, con una cilindrada que supera a muchas marcas europeas establecidas en el segmento medio. La ambición técnica de Zontes refleja la nueva generación de fabricantes chinos que compiten en prestaciones, no solo en precio.",
+    "notable": [
+      "El motor de 855 cc bicilíndrico paralelo de Zontes, lanzado en 2022, supera en cilindrada a varias marcas europeas consolidadas en el segmento medio y representa uno de los motores de desarrollo propio más grandes producidos por un fabricante chino de motocicletas",
+      "La 350T de Zontes fue uno de los primeros modelos chinos en alcanzar ventas relevantes en Italia y España, mercados con tradición motorista propia y compradores especialmente críticos con la calidad, demostrando que la percepción de las marcas chinas había cambiado sustancialmente",
+      "Los modelos Zontes de media cilindrada incorporan de serie pantallas TFT de 5-7 pulgadas con conectividad Bluetooth, control de tracción multinivel e iluminación LED adaptativa, equipamiento que hasta 2018 era exclusivo de marcas europeas de precio significativamente superior"
+    ],
+    "segments": [
+      "naked",
+      "sport",
+      "adventure",
+      "compact"
+    ]
+  }
+]

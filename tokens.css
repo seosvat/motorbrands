@@ -1,0 +1,117 @@
+/* tokens.css — Motorbrands · Cobalt design system · Hallmark */
+
+:root {
+  /* ── Paper ─────────────────────────────────────────────────────────────── */
+  /* Page bg: pure white                                                      */
+  --color-paper:      oklch(100%  0     0);
+  /* Card bg: pure white — elevated against the page                        */
+  --color-paper-2:    oklch(100%  0     0);
+  /* Subtler surface: nav pills, active-state bg, hover chips               */
+  --color-paper-3:    oklch(95.5% 0     0);
+  --color-topbar-bg:  oklch(100%  0     0 / 0.78);
+
+  /* ── Ink ────────────────────────────────────────────────────────────────── */
+  --color-ink:        oklch(12%   0.015 255);
+  --color-ink-2:      oklch(46%   0.012 254);
+  --color-ink-3:      oklch(66%   0.008 253);
+
+  /* ── Rule (borders) ────────────────────────────────────────────────────── */
+  --color-rule:       oklch(90%   0.006 252);
+  --color-rule-mid:   oklch(81%   0.009 252);
+
+  /* ── Accent ─────────────────────────────────────────────────────────────── */
+  --color-accent:      oklch(52%   0.22  260);
+  --color-focus:       oklch(58%   0.22  260);
+  /* Very light lavender — tab active highlight bg, selection chips          */
+  --color-accent-tint: oklch(95.5% 0.035 260);
+
+  /* ── Category palette ──────────────────────────────────────────────────── */
+  --color-car:        oklch(42%   0.20  262);
+  --color-car-bg:     oklch(95%   0.04  262);
+  --color-moto:       oklch(50%   0.19   32);
+  --color-moto-bg:    oklch(96%   0.04   32);
+  --color-auto:       oklch(42%   0.14  152);
+  --color-auto-bg:    oklch(95%   0.04  152);
+  --color-defunct:    oklch(55%   0.012 252);
+  --color-defunct-bg: oklch(94%   0.004 252);
+
+  /* ── Fuel palette ──────────────────────────────────────────────────────── */
+  --color-fuel-e:     oklch(38%   0.17  293);
+  --color-fuel-e-bg:  oklch(96%   0.03  293);
+  --color-fuel-h:     oklch(40%   0.15  152);
+  --color-fuel-h-bg:  oklch(95%   0.04  152);
+  --color-fuel-c:     oklch(50%   0.04   55);
+  --color-fuel-c-bg:  oklch(95%   0.01   55);
+
+  /* ── Spacing (4 pt base) ───────────────────────────────────────────────── */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs:  0.75rem;
+  --space-sm:  1rem;
+  --space-md:  1.5rem;
+  --space-lg:  2rem;
+  --space-xl:  3rem;
+  --space-2xl: 4.5rem;
+  --space-3xl: 7rem;
+
+  /* ── Type scale ─────────────────────────────────────────────────────────── */
+  --text-2xs: 0.625rem;
+  --text-xs:  0.6875rem;
+  --text-sm:  0.75rem;
+  --text-md:  0.875rem;
+  --text-lg:  1rem;
+  --text-xl:  1.25rem;
+
+  /* ── Easings ────────────────────────────────────────────────────────────── */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:     cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.87, 0, 0.13, 1);
+  --dur-short:   180ms;
+  --dur-mid:     280ms;
+
+  /* ── Radii ──────────────────────────────────────────────────────────────── */
+  --radius-sm:   8px;
+  --radius-md:   14px;
+  --radius-lg:   18px;
+  --radius-pill: 999px;
+
+  /* ── Layout ─────────────────────────────────────────────────────────────── */
+  --site-nav-h: 76px;
+}
+
+/* ── Dark mode ──────────────────────────────────────────────────────────── */
+[data-theme="dark"] {
+  /* Page bg — deep navy-dark                                                */
+  --color-paper:      oklch(11%   0.010 258);
+  /* Card bg — slightly elevated against page                                */
+  --color-paper-2:    oklch(15%   0.012 258);
+  --color-paper-3:    oklch(18.5% 0.014 258);
+  --color-topbar-bg:  oklch(11%   0.010 258 / 0.92);
+
+  --color-ink:        oklch(93%   0.005 252);
+  --color-ink-2:      oklch(64%   0.010 254);
+  --color-ink-3:      oklch(42%   0.008 253);
+
+  --color-rule:       oklch(21%   0.015 258);
+  --color-rule-mid:   oklch(30%   0.015 258);
+
+  --color-accent:      oklch(68%   0.20  260);
+  --color-focus:       oklch(70%   0.20  260);
+  --color-accent-tint: oklch(18.5% 0.06  260);
+
+  --color-car:        oklch(70%   0.16  262);
+  --color-car-bg:     oklch(18%   0.06  262);
+  --color-moto:       oklch(70%   0.15   35);
+  --color-moto-bg:    oklch(18%   0.05   35);
+  --color-auto:       oklch(68%   0.14  152);
+  --color-auto-bg:    oklch(17%   0.05  152);
+  --color-defunct:    oklch(40%   0.008 252);
+  --color-defunct-bg: oklch(18%   0.005 252);
+
+  --color-fuel-e:     oklch(72%   0.14  293);
+  --color-fuel-e-bg:  oklch(19%   0.05  293);
+  --color-fuel-h:     oklch(70%   0.15  152);
+  --color-fuel-h-bg:  oklch(18%   0.05  152);
+  --color-fuel-c:     oklch(62%   0.04   55);
+  --color-fuel-c-bg:  oklch(18%   0.015  55);
+}

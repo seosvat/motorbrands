@@ -1,0 +1,11 @@
+# robots.txt — Motorbrands
+
+User-agent: *
+Allow: /
+
+# Páginas internas / herramientas — fuera del índice
+Disallow: /admin.html
+Disallow: /Knowledge/
+
+# Sitemap
+Sitemap: https://motorbrands.oscarlp.com/sitemap.xml
